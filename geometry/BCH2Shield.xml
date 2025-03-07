@@ -1,0 +1,16 @@
+<lccdd>
+	<!-- Global dictionary constants -->
+	<define>
+		<constant name="ShieldLayers" value="20"/>
+		<constant name="ShieldLayerThickness" value="0.7632*cm"/> <!-- 1/100*NIL of BCH2 -->
+	</define>
+
+	<!-- Visualization attributes -->
+	<display>
+		<vis name="NeutronShieldVis" alpha="0.5" r="0.5" g="0.5" b="0.5" showDaughters="false" visible="true">
+	</display>
+
+	<detectors>
+		
+	</detectors>
+</lccdd>
