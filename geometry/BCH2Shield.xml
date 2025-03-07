@@ -1,8 +1,12 @@
 <lccdd>
 	<!-- Global dictionary constants -->
 	<define>
-		<constant name="ShieldLayers" value="20"/>
-		<constant name="ShieldLayerThickness" value="0.7632*cm"/> <!-- 1/100*NIL of BCH2 -->
+		<constant name="numShieldLayers" value="20"/>
+		<constant name="percentNIL" value="0.7632*cm"/>
+		<constant name="NeutronShield_outer_radius" value="1499mm"/>
+		<constant name="NeutronShield_inner_radius" value="NeutronShield_outer_radius - (numShieldLayers*percentNIL)"/>
+		
+		<constant name="ShieldLayerThickness" value="0.7632*cm"/> <!-- 1/100*NIL of BCH2 --> 
 	</define>
 
 	<!-- Visualization attributes -->
@@ -11,6 +15,24 @@
 	</display>
 
 	<detectors>
-		
+		<detector id="DetID_Shield" name="BCH2Shield" type="PassiveLayer" vis="NeutronShieldVis" material="BCH2">
+
+			<comment>BCH2 Neutron Shield</comment>
+
+			<envelope vis="NeutronShieldVis">
+				<shape 	type="PolyhedraRegular" 
+						numsides="ECalBarrel_symmetry"
+						rmin="NeutronShield_inner_radius"
+						rmax="NeutronShield_outer_radius"
+						dz="ECalBarrel_half_length * 2"
+						material="BCH2"
+					/>
+			</envelope>
+
 	</detectors>
+
+	<plugins>
+		<plugin name="DD4hep_CaloFaceBarrelSurfacePlugin">
+			<argument value="symmetry=ECalBarrel_symmetry"/>
+	</plugins>
 </lccdd>
