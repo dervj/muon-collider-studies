@@ -5,8 +5,6 @@
 		<constant name="percentNIL" value="0.7632*cm"/>
 		<constant name="NeutronShield_outer_radius" value="1499mm"/>
 		<constant name="NeutronShield_inner_radius" value="NeutronShield_outer_radius - (numShieldLayers*percentNIL)"/>
-		
-		<constant name="ShieldLayerThickness" value="0.7632*cm"/> <!-- 1/100*NIL of BCH2 --> 
 	</define>
 
 	<!-- Visualization attributes -->
