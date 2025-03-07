@@ -1,0 +1,589 @@
+<!-- Loading shared library : /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/pandoraanalysis-2.0.1-jxuegokxutags4l4zblptpkedr532hlc/lib/libPandoraAnalysis.so.2.0.1 (libPandoraAnalysis.so)-->
+<!-- Loading shared library : /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/muoncvxddigitiser-0.2-de3n264x25i2f62dg73sdvmg7tzlld43/lib/libMuonCVXDDigitiser.so.0.2.0 (libMuonCVXDDigitiser.so)-->
+<!-- Loading shared library : /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/marlinkinfitprocessors-0.5-fgsyq2usjsu6xs55rxokbpdivrx34cur/lib/libMarlinKinfitProcessors.so.0.5.0 (libMarlinKinfitProcessors.so)-->
+<!-- Loading shared library : /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/garlic-3.1-4pngfxgyclxjqtpmmp6b52r6r73echex/lib/libGarlic.so.3.1.0 (libGarlic.so)-->
+<!-- Loading shared library : /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/forwardtracking-1.14.2-vculrdoxgxihvb4phnmwyply7gbbfwe2/lib/libForwardTracking.so.1.14.2 (libForwardTracking.so)-->
+<!-- Loading shared library : /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/clicperformance-02-05-qbhsfruyosobhjdtpyopis6tpyhrmmrb/lib/libClicPerformance.so.2.5.0 (libClicPerformance.so)-->
+<!-- Loading shared library : /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/overlay-0.25-qtd5jwj4s3c3gelrca6r37ge3lsby5sf/lib/libOverlay.so.0.25.0 (libOverlay.so)-->
+<!-- Loading shared library : /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/marlintrkprocessors-2.15.2-rmulgodoxu25nfrqlmt5bbsf7cym27or/lib/libMarlinTrkProcessors.so.2.15.2 (libMarlinTrkProcessors.so)-->
+<!-- Loading shared library : /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/marlinreco-1.35-xrltzy2fzw3avh67rcrfbii4a7w4vhm5/lib/libMarlinReco.so.1.35.0 (libMarlinReco.so)-->
+PersistencyIO    INFO  +++ Set Streamer to dd4hep::OpaqueDataBlock
+<!-- Loading shared library : /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/marlinkinfit-0.6.1-wygfaxuydmbl6nyfamhqqlmhb3hptcmq/lib/libMarlinKinfit.so.0.6.1 (libMarlinKinfit.so)-->
+<!-- Loading shared library : /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/marlinfastjet-0.5.3-qnnzlz2joj7hj427b5zzx3ggkzj6w5tm/lib/libMarlinFastJet.so.0.5.3 (libMarlinFastJet.so)-->
+<!-- Loading shared library : /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/lctuple-1.15-kyjme3uu5lubhvuruutu3j7vwiz6yfm6/lib/libLCTuple.so.1.15.0 (libLCTuple.so)-->
+<!-- Loading shared library : /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/lcfiplus-0.10.1-p5cv6ytolot2lq6zs5daqosyfje26p4m/lib/libLCFIPlus.so.0.10.1 (libLCFIPlus.so)-->
+<!-- Loading shared library : /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/fcalclusterer-1.1-bmqkw53jiuz4maz2hnv3e5dwognseeoc/lib/libFCalClusterer.so (libFCalClusterer.so)-->
+<!-- Loading shared library : /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/marlindd4hep-0.6.2-o7hsghpkzm2y3bt5gibl42l2cazaooii/lib/libMarlinDD4hep.so.0.6.2 (libMarlinDD4hep.so)-->
+<!-- Loading shared library : /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/ddmarlinpandora-0.14-m2wmh6ygxhvoe5jwwioxejbk356mxlvs/lib/libDDMarlinPandora.so.0.14.0 (libDDMarlinPandora.so)-->
+<!-- Loading shared library : /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/conformaltracking-1.12.1-nn6gwewjstwq433xqfx7i7nt3iyzzrc7/lib/libConformalTracking.so.1.12.1 (libConformalTracking.so)-->
+<!-- Loading shared library : /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/cedviewer-1.19.1-5qz53mzpxe3kq7jkqmigwjm5wdlkumzg/lib/libCEDViewer.so.1.19.1 (libCEDViewer.so)-->
+<!-- Loading shared library : /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/actstracking-1.2.2-tjfu4av5xb6ivzyihvi2a3djbpnqx5nk/lib/libACTSTracking.so (libACTSTracking.so)-->
+
+XMLParser::parse : no <constants/> section found in /tmp/ced2go_jdervan_steering.xml
+[ MESSAGE "Marlin"]  ---- no GEAR XML file given  --------- 
+[ MESSAGE "MyInitializeDD4hep"]  -------------------------------------
+[ MESSAGE "MyInitializeDD4hep"]  ---- Initializing DD4hep from file  /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/lcgeo-0.20-grx3loszut2wlx5dbtguwxcuxs7whjad/share/lcgeo/compact/MuColl/MuColl_v1/MuColl_v1.xml ... 
+DD4hep           WARN  ++ STD conditions NOT defined by client. NTP defaults taken.
+Detector         INFO  *********** Created World volume with size: 3000 3000 3000
+Compact          INFO  ++ Converted subdetector:BeampipeInner of type DD4hep_PolyconeSupport 
+Compact          INFO  ++ Converted subdetector:BeampipeOuter of type DD4hep_PolyconeSupport 
+Compact          INFO  ++ Converted subdetector:NozzleW_right of type DD4hep_PolyconeSupport 
+Compact          INFO  ++ Converted subdetector:NozzleW_left of type DD4hep_PolyconeSupport 
+Compact          INFO  ++ Converted subdetector:NozzleBCH_right of type DD4hep_PolyconeSupport 
+Compact          INFO  ++ Converted subdetector:NozzleBCH_left of type DD4hep_PolyconeSupport 
+Utilities        INFO  +++ setDetectorTypeFlags for detector: Vertex not set.
+Compact          INFO  ++ Converted subdetector:Vertex of type DD4hep_SubdetectorAssembly 
+Compact          INFO  ++ Converted subdetector:VertexBarrel of type ZSegmentedPlanarTracker [tracker]
+[ VERBOSE "MyInitializeDD4hep"] XXX Vertex endcap layers: 8
+Compact          INFO  ++ Converted subdetector:VertexEndcap of type VertexEndcap_o1_v06 [tracker]
+Compact          INFO  ++ Converted subdetector:VertexVerticalCable of type TrackerEndcapSupport_o1_v02 
+VertexEndcap     INFO  +++ Processing SurfaceInstaller for subdetector: 'VertexEndcap'
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[1] = dimension = 2
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[2] = u_x = -1
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[3] = v_z = 1
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[4] = n_y = 1
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: vectors: u( -1 , 0 , 0) v( 0 , 0 , 1) n( 0 , 1 , 0) o( 0 , 0 , 0) 
+Utilities        INFO  +++ setDetectorTypeFlags for detector: InnerTrackers not set.
+Compact          INFO  ++ Converted subdetector:InnerTrackers of type DD4hep_SubdetectorAssembly 
+Compact          INFO  ++ Converted subdetector:InnerTrackerBarrel of type TrackerBarrel_o1_v05 [tracker]
+Compact          INFO  ++ Converted subdetector:InnerTrackerEndcap of type TrackerEndcap_o2_v06 [tracker]
+Compact          INFO  ++ Converted subdetector:InnerTrackerBarrelSupport of type TrackerBarrelSupport_o1_v01 
+Compact          INFO  ++ Converted subdetector:InnerTrackerEndcapSupport of type TrackerEndcapSupport_o1_v02 
+Compact          INFO  ++ Converted subdetector:InnerTrackerInterlink of type TubeSupport_o1_v01 
+Compact          INFO  ++ Converted subdetector:InnerTrackerVertexCable of type TubeSupport_o1_v01 
+Compact          INFO  ++ Converted subdetector:BeampipeShell of type ConicalSupport_o1_v01 
+Compact          INFO  ++ Converted subdetector:BeampipeShell2 of type TrackerEndcapSupport_o1_v02 
+Compact          INFO  ++ Converted subdetector:BeampipeShell3 of type TrackerBarrelSupport_o1_v01 
+InnerTrackerBarrel INFO  +++ Processing SurfaceInstaller for subdetector: 'InnerTrackerBarrel'
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[1] = dimension = 2
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[2] = u_x = 1
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[3] = v_y = 1
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[4] = n_z = 1
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: vectors: u( 1 , 0 , 0) v( 0 , 1 , 0) n( 0 , 0 , 1) o( 0 , 0 , 0) 
+InnerTrackerEndcap INFO  +++ Processing SurfaceInstaller for subdetector: 'InnerTrackerEndcap'
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[1] = dimension = 2
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[2] = u_x = 1
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[3] = v_y = 1
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[4] = n_z = 1
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: vectors: u( 1 , 0 , 0) v( 0 , 1 , 0) n( 0 , 0 , 1) o( 0 , 0 , 0) 
+Utilities        INFO  +++ setDetectorTypeFlags for detector: OuterTrackers not set.
+WARNING: Failed to read settings from: /home/jdervan/.glced_cfg/settings1
+Set options to default settings
+Compact          INFO  ++ Converted subdetector:OuterTrackers of type DD4hep_SubdetectorAssembly 
+Compact          INFO  ++ Converted subdetector:OuterTrackerBarrel of type TrackerBarrel_o1_v05 [tracker]
+Compact          INFO  ++ Converted subdetector:OuterTrackerEndcap of type TrackerEndcap_o2_v06 [tracker]
+Compact          INFO  ++ Converted subdetector:OuterTrackerBarrelSupport of type TrackerBarrelSupport_o1_v01 
+Compact          INFO  ++ Converted subdetector:OuterTrackerEndcapSupport of type TrackerEndcapSupport_o1_v02 
+OuterTrackerBarrel INFO  +++ Processing SurfaceInstaller for subdetector: 'OuterTrackerBarrel'
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[1] = dimension = 2
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[2] = u_x = 1
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[3] = v_y = 1
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[4] = n_z = 1
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: vectors: u( 1 , 0 , 0) v( 0 , 1 , 0) n( 0 , 0 , 1) o( 0 , 0 , 0) 
+OuterTrackerEndcap INFO  +++ Processing SurfaceInstaller for subdetector: 'OuterTrackerEndcap'
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[1] = dimension = 2
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[2] = u_x = 1
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[3] = v_y = 1
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: argument[4] = n_z = 1
+[ VERBOSE "MyInitializeDD4hep"] DD4hep_GenericSurfaceInstallerPlugin: vectors: u( 1 , 0 , 0) v( 0 , 1 , 0) n( 0 , 0 , 1) o( 0 , 0 , 0) 
+[ VERBOSE "MyInitializeDD4hep"] Layer: 0 Rmin: 150 layer_pos_z: -9.8475 Dist: 150 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 1 Rmin: 150 layer_pos_z: -9.3425 Dist: 150.505 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 2 Rmin: 150 layer_pos_z: -8.8375 Dist: 151.01 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 3 Rmin: 150 layer_pos_z: -8.3325 Dist: 151.515 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 4 Rmin: 150 layer_pos_z: -7.8275 Dist: 152.02 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 5 Rmin: 150 layer_pos_z: -7.3225 Dist: 152.525 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 6 Rmin: 150 layer_pos_z: -6.8175 Dist: 153.03 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 7 Rmin: 150 layer_pos_z: -6.3125 Dist: 153.535 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 8 Rmin: 150 layer_pos_z: -5.8075 Dist: 154.04 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 9 Rmin: 150 layer_pos_z: -5.3025 Dist: 154.545 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 10 Rmin: 150 layer_pos_z: -4.7975 Dist: 155.05 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 11 Rmin: 150 layer_pos_z: -4.2925 Dist: 155.555 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 12 Rmin: 150 layer_pos_z: -3.7875 Dist: 156.06 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 13 Rmin: 150 layer_pos_z: -3.2825 Dist: 156.565 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 14 Rmin: 150 layer_pos_z: -2.7775 Dist: 157.07 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 15 Rmin: 150 layer_pos_z: -2.2725 Dist: 157.575 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 16 Rmin: 150 layer_pos_z: -1.7675 Dist: 158.08 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 17 Rmin: 150 layer_pos_z: -1.2625 Dist: 158.585 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 18 Rmin: 150 layer_pos_z: -0.7575 Dist: 159.09 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 19 Rmin: 150 layer_pos_z: -0.2525 Dist: 159.595 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 20 Rmin: 150 layer_pos_z: 0.2525 Dist: 160.1 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 21 Rmin: 150 layer_pos_z: 0.7575 Dist: 160.605 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 22 Rmin: 150 layer_pos_z: 1.2625 Dist: 161.11 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 23 Rmin: 150 layer_pos_z: 1.7675 Dist: 161.615 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 24 Rmin: 150 layer_pos_z: 2.2725 Dist: 162.12 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 25 Rmin: 150 layer_pos_z: 2.7775 Dist: 162.625 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 26 Rmin: 150 layer_pos_z: 3.2825 Dist: 163.13 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 27 Rmin: 150 layer_pos_z: 3.7875 Dist: 163.635 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 28 Rmin: 150 layer_pos_z: 4.2925 Dist: 164.14 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 29 Rmin: 150 layer_pos_z: 4.7975 Dist: 164.645 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 30 Rmin: 150 layer_pos_z: 5.3025 Dist: 165.15 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 31 Rmin: 150 layer_pos_z: 5.8075 Dist: 165.655 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 32 Rmin: 150 layer_pos_z: 6.3125 Dist: 166.16 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 33 Rmin: 150 layer_pos_z: 6.8175 Dist: 166.665 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 34 Rmin: 150 layer_pos_z: 7.3225 Dist: 167.17 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 35 Rmin: 150 layer_pos_z: 7.8275 Dist: 167.675 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 36 Rmin: 150 layer_pos_z: 8.3325 Dist: 168.18 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 37 Rmin: 150 layer_pos_z: 8.8375 Dist: 168.685 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 38 Rmin: 150 layer_pos_z: 9.3425 Dist: 169.19 inner_thickness: 0.24 outer_thickness: 0.265
+[ VERBOSE "MyInitializeDD4hep"] Layer: 39 Rmin: 150 layer_pos_z: 9.8475 Dist: 169.695 inner_thickness: 0.24 outer_thickness: 0.265
+Compact          INFO  ++ Converted subdetector:ECalBarrel of type GenericCalBarrel_o1_v01 [calorimeter]
+ECalBarrel       INFO  +++ Processing SurfaceInstaller for subdetector: 'ECalBarrel'
+DD4hep_CaloFaceBarrelSurfacePlugin INFO  install tracking surfaces for :  ECalBarrel 
+[ VERBOSE "MyInitializeDD4hep"] Number of layers in group 0 : 40
+Compact          INFO  ++ Converted subdetector:ECalEndcap of type GenericCalEndcap_o1_v01 [calorimeter]
+ECalEndcap       INFO  +++ Processing SurfaceInstaller for subdetector: 'ECalEndcap'
+DD4hep_CaloFaceEndcapSurfacePlugin INFO  install tracking surfaces for :  ECalEndcap 
+[ VERBOSE "MyInitializeDD4hep"] Layer: 0 Rmin: 174 layer_pos_z: -78.175 Dist: 174 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 1 Rmin: 174 layer_pos_z: -75.525 Dist: 176.65 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 2 Rmin: 174 layer_pos_z: -72.875 Dist: 179.3 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 3 Rmin: 174 layer_pos_z: -70.225 Dist: 181.95 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 4 Rmin: 174 layer_pos_z: -67.575 Dist: 184.6 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 5 Rmin: 174 layer_pos_z: -64.925 Dist: 187.25 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 6 Rmin: 174 layer_pos_z: -62.275 Dist: 189.9 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 7 Rmin: 174 layer_pos_z: -59.625 Dist: 192.55 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 8 Rmin: 174 layer_pos_z: -56.975 Dist: 195.2 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 9 Rmin: 174 layer_pos_z: -54.325 Dist: 197.85 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 10 Rmin: 174 layer_pos_z: -51.675 Dist: 200.5 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 11 Rmin: 174 layer_pos_z: -49.025 Dist: 203.15 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 12 Rmin: 174 layer_pos_z: -46.375 Dist: 205.8 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 13 Rmin: 174 layer_pos_z: -43.725 Dist: 208.45 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 14 Rmin: 174 layer_pos_z: -41.075 Dist: 211.1 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 15 Rmin: 174 layer_pos_z: -38.425 Dist: 213.75 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 16 Rmin: 174 layer_pos_z: -35.775 Dist: 216.4 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 17 Rmin: 174 layer_pos_z: -33.125 Dist: 219.05 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 18 Rmin: 174 layer_pos_z: -30.475 Dist: 221.7 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 19 Rmin: 174 layer_pos_z: -27.825 Dist: 224.35 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 20 Rmin: 174 layer_pos_z: -25.175 Dist: 227 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 21 Rmin: 174 layer_pos_z: -22.525 Dist: 229.65 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 22 Rmin: 174 layer_pos_z: -19.875 Dist: 232.3 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 23 Rmin: 174 layer_pos_z: -17.225 Dist: 234.95 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 24 Rmin: 174 layer_pos_z: -14.575 Dist: 237.6 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 25 Rmin: 174 layer_pos_z: -11.925 Dist: 240.25 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 26 Rmin: 174 layer_pos_z: -9.275 Dist: 242.9 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 27 Rmin: 174 layer_pos_z: -6.625 Dist: 245.55 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 28 Rmin: 174 layer_pos_z: -3.975 Dist: 248.2 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 29 Rmin: 174 layer_pos_z: -1.325 Dist: 250.85 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 30 Rmin: 174 layer_pos_z: 1.325 Dist: 253.5 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 31 Rmin: 174 layer_pos_z: 3.975 Dist: 256.15 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 32 Rmin: 174 layer_pos_z: 6.625 Dist: 258.8 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 33 Rmin: 174 layer_pos_z: 9.275 Dist: 261.45 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 34 Rmin: 174 layer_pos_z: 11.925 Dist: 264.1 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 35 Rmin: 174 layer_pos_z: 14.575 Dist: 266.75 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 36 Rmin: 174 layer_pos_z: 17.225 Dist: 269.4 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 37 Rmin: 174 layer_pos_z: 19.875 Dist: 272.05 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 38 Rmin: 174 layer_pos_z: 22.525 Dist: 274.7 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 39 Rmin: 174 layer_pos_z: 25.175 Dist: 277.35 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 40 Rmin: 174 layer_pos_z: 27.825 Dist: 280 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 41 Rmin: 174 layer_pos_z: 30.475 Dist: 282.65 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 42 Rmin: 174 layer_pos_z: 33.125 Dist: 285.3 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 43 Rmin: 174 layer_pos_z: 35.775 Dist: 287.95 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 44 Rmin: 174 layer_pos_z: 38.425 Dist: 290.6 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 45 Rmin: 174 layer_pos_z: 41.075 Dist: 293.25 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 46 Rmin: 174 layer_pos_z: 43.725 Dist: 295.9 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 47 Rmin: 174 layer_pos_z: 46.375 Dist: 298.55 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 48 Rmin: 174 layer_pos_z: 49.025 Dist: 301.2 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 49 Rmin: 174 layer_pos_z: 51.675 Dist: 303.85 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 50 Rmin: 174 layer_pos_z: 54.325 Dist: 306.5 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 51 Rmin: 174 layer_pos_z: 56.975 Dist: 309.15 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 52 Rmin: 174 layer_pos_z: 59.625 Dist: 311.8 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 53 Rmin: 174 layer_pos_z: 62.275 Dist: 314.45 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 54 Rmin: 174 layer_pos_z: 64.925 Dist: 317.1 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 55 Rmin: 174 layer_pos_z: 67.575 Dist: 319.75 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 56 Rmin: 174 layer_pos_z: 70.225 Dist: 322.4 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 57 Rmin: 174 layer_pos_z: 72.875 Dist: 325.05 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 58 Rmin: 174 layer_pos_z: 75.525 Dist: 327.7 inner_thickness: 2.1 outer_thickness: 0.55
+[ VERBOSE "MyInitializeDD4hep"] Layer: 59 Rmin: 174 layer_pos_z: 78.175 Dist: 330.35 inner_thickness: 2.1 outer_thickness: 0.55
+Compact          INFO  ++ Converted subdetector:HCalBarrel of type GenericCalBarrel_o1_v01 [calorimeter]
+Utilities        INFO  +++ setDetectorTypeFlags for detector: HCalEndcaps not set.
+Compact          INFO  ++ Converted subdetector:HCalEndcaps of type DD4hep_SubdetectorAssembly 
+[ VERBOSE "MyInitializeDD4hep"] Number of layers in group 0 : 12
+[ VERBOSE "MyInitializeDD4hep"] Number of layers in group 1 : 12
+[ VERBOSE "MyInitializeDD4hep"] Number of layers in group 2 : 12
+[ VERBOSE "MyInitializeDD4hep"] Number of layers in group 3 : 12
+[ VERBOSE "MyInitializeDD4hep"] Number of layers in group 4 : 12
+Compact          INFO  ++ Converted subdetector:HCalEndcap of type GenericCalEndcap_o2_v01 [calorimeter]
+[ VERBOSE "MyInitializeDD4hep"] Cutout z width will be  18.55
+[ VERBOSE "MyInitializeDD4hep"] Number of layers in group 0 : 7
+Compact          INFO  ++ Converted subdetector:HCalRing of type GenericCalEndcap_o1_v01 [calorimeter]
+Utilities        INFO  +++ setDetectorTypeFlags for detector: Solenoid not set.
+Compact          INFO  ++ Converted subdetector:Solenoid of type DD4hep_SubdetectorAssembly 
+Compact          INFO  ++ Converted subdetector:SolenoidBarrel of type DD4hep_Solenoid_o1_v01 
+Compact          INFO  ++ Converted subdetector:SolenoidEndcaps of type DD4hep_DiskTracker 
+[ VERBOSE "MyInitializeDD4hep"] Layer: 0 Rmin: 446.1 layer_pos_z: -85.2 Dist: 446.1 inner_thickness: 0.75 outer_thickness: 27.65
+[ VERBOSE "MyInitializeDD4hep"] Layer: 1 Rmin: 446.1 layer_pos_z: -56.8 Dist: 474.5 inner_thickness: 0.75 outer_thickness: 27.65
+[ VERBOSE "MyInitializeDD4hep"] Layer: 2 Rmin: 446.1 layer_pos_z: -28.4 Dist: 502.9 inner_thickness: 0.75 outer_thickness: 27.65
+[ VERBOSE "MyInitializeDD4hep"] Layer: 3 Rmin: 446.1 layer_pos_z: 3.55271e-15 Dist: 531.3 inner_thickness: 0.75 outer_thickness: 27.65
+[ VERBOSE "MyInitializeDD4hep"] Layer: 4 Rmin: 446.1 layer_pos_z: 28.4 Dist: 559.7 inner_thickness: 0.75 outer_thickness: 27.65
+[ VERBOSE "MyInitializeDD4hep"] Layer: 5 Rmin: 446.1 layer_pos_z: 56.8 Dist: 588.1 inner_thickness: 0.75 outer_thickness: 27.65
+[ VERBOSE "MyInitializeDD4hep"] Layer: 6 Rmin: 446.1 layer_pos_z: 85.2 Dist: 616.5 inner_thickness: 0.75 outer_thickness: 27.65
+Compact          INFO  ++ Converted subdetector:YokeBarrel of type GenericCalBarrel_o1_v01 [calorimeter]
+[ VERBOSE "MyInitializeDD4hep"] Number of layers in group 0 : 1
+[ VERBOSE "MyInitializeDD4hep"] Number of layers in group 1 : 1
+[ VERBOSE "MyInitializeDD4hep"] Number of layers in group 2 : 1
+[ VERBOSE "MyInitializeDD4hep"] Number of layers in group 3 : 1
+[ VERBOSE "MyInitializeDD4hep"] Number of layers in group 4 : 1
+[ VERBOSE "MyInitializeDD4hep"] Number of layers in group 5 : 1
+[ VERBOSE "MyInitializeDD4hep"] Number of layers in group 6 : 1
+Compact          INFO  ++ Converted subdetector:YokeEndcap of type GenericCalEndcap_o2_v01 [calorimeter]
+Compact          INFO  ++ Converted field: Successfully created field GlobalSolenoid [solenoid]
+Detector         INFO  +++ Patching names of anonymous shapes....
+DD4hepVolumeManager INFO  **** running plugin DD4hepVolumeManager ! 
+VolumeManager    INFO   - populating volume ids - be patient ...
+VolumeManager    INFO   - populating volume ids - done. 78475 nodes.
+VolumeManager    INFO  +++ Volume manager populated and loaded.
+InstallSurfaceManager INFO  **** running plugin InstallSurfaceManager ! 
+InstallSurfaceManager INFO  --------  SurfaceManager contains the following maps : --------- 
+  key: BeampipeInner 	 number of surfaces : 0
+  key: BeampipeOuter 	 number of surfaces : 0
+  key: BeampipeShell 	 number of surfaces : 4
+  key: BeampipeShell2 	 number of surfaces : 4
+  key: BeampipeShell3 	 number of surfaces : 1
+  key: ECalBarrel 	 number of surfaces : 12
+  key: ECalEndcap 	 number of surfaces : 2
+  key: HCalBarrel 	 number of surfaces : 0
+  key: HCalEndcap 	 number of surfaces : 0
+  key: HCalEndcaps 	 number of surfaces : 0
+  key: HCalRing 	 number of surfaces : 0
+  key: InnerTrackerBarrel 	 number of surfaces : 9032
+  key: InnerTrackerBarrelSupport 	 number of surfaces : 4
+  key: InnerTrackerEndcap 	 number of surfaces : 1196
+  key: InnerTrackerEndcapSupport 	 number of surfaces : 20
+  key: InnerTrackerInterlink 	 number of surfaces : 2
+  key: InnerTrackerVertexCable 	 number of surfaces : 2
+  key: InnerTrackers 	 number of surfaces : 10265
+  key: NozzleBCH_left 	 number of surfaces : 0
+  key: NozzleBCH_right 	 number of surfaces : 0
+  key: NozzleW_left 	 number of surfaces : 0
+  key: NozzleW_right 	 number of surfaces : 0
+  key: OuterTrackerBarrel 	 number of surfaces : 64512
+  key: OuterTrackerBarrelSupport 	 number of surfaces : 3
+  key: OuterTrackerEndcap 	 number of surfaces : 1152
+  key: OuterTrackerEndcapSupport 	 number of surfaces : 12
+  key: OuterTrackers 	 number of surfaces : 65679
+  key: Solenoid 	 number of surfaces : 0
+  key: SolenoidBarrel 	 number of surfaces : 0
+  key: SolenoidEndcaps 	 number of surfaces : 0
+  key: Vertex 	 number of surfaces : 1068
+  key: VertexBarrel 	 number of surfaces : 810
+  key: VertexEndcap 	 number of surfaces : 256
+  key: VertexVerticalCable 	 number of surfaces : 2
+  key: YokeBarrel 	 number of surfaces : 0
+  key: YokeEndcap 	 number of surfaces : 0
+  key: calorimeter 	 number of surfaces : 14
+  key: compound 	 number of surfaces : 77012
+  key: passive 	 number of surfaces : 54
+  key: tracker 	 number of surfaces : 76958
+  key: world 	 number of surfaces : 154038
+---------------------------------------------------------------- 
+
+[ MESSAGE "MyInitializeDD4hep"]  ---- instantiated  geometry for detector MuColl_v1
+[ MESSAGE "MyInitializeDD4hep"]  -------------------------------------
+[ MESSAGE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"] ---- MyCEDViewer -  parameters: 
+[ MESSAGE "MyCEDViewer"] 	ColorByEnergy:  false
+[ MESSAGE "MyCEDViewer"] 	ColorByEnergyAutoColor:  false
+[ MESSAGE "MyCEDViewer"] 	ColorByEnergyBrightness:  1
+[ MESSAGE "MyCEDViewer"] 	ColorByEnergyMax:  35
+[ MESSAGE "MyCEDViewer"] 	ColorByEnergyMin:  0
+[ MESSAGE "MyCEDViewer"] 	ColorByEnergySaturation:  1
+[ MESSAGE "MyCEDViewer"] 	ColorScheme:  10
+[ MESSAGE "MyCEDViewer"] 	DetailledDrawing:  VXD 
+[ MESSAGE "MyCEDViewer"] 		VertexBarrel 
+[ MESSAGE "MyCEDViewer"] 	DrawDetector:  true
+[ MESSAGE "MyCEDViewer"] 	DrawEllipsoidForPFOClusters:  0
+[ MESSAGE "MyCEDViewer"] 	DrawHelixForPFOs:  0
+[ MESSAGE "MyCEDViewer"] 	DrawHelixForTrack:  0
+[ MESSAGE "MyCEDViewer"] 	DrawInLayer:  VXDCollection 0 5 1 
+[ MESSAGE "MyCEDViewer"] 		SITCollection 0 5 1 
+[ MESSAGE "MyCEDViewer"] 		FTD_PIXELCollection 0 5 1 
+[ MESSAGE "MyCEDViewer"] 		FTD_STRIPCollection 0 5 1 
+[ MESSAGE "MyCEDViewer"] 		FTDCollection 0 5 1 
+[ MESSAGE "MyCEDViewer"] 		TPCCollection 0 3 1 
+[ MESSAGE "MyCEDViewer"] 		SETCollection 0 3 1 
+[ MESSAGE "MyCEDViewer"] 		ETDCollection 0 3 1 
+[ MESSAGE "MyCEDViewer"] 		VertexBarrelCollection 0 5 1 
+[ MESSAGE "MyCEDViewer"] 		VertexEndcapCollection 0 5 1 
+[ MESSAGE "MyCEDViewer"] 		InnerTrackerBarrelCollection 0 5 1 
+[ MESSAGE "MyCEDViewer"] 		InnerTrackerEndcapCollection 0 5 1 
+[ MESSAGE "MyCEDViewer"] 		OuterTrackerBarrelCollection 0 5 1 
+[ MESSAGE "MyCEDViewer"] 		OuterTrackerEndcapCollection 0 5 1 
+[ MESSAGE "MyCEDViewer"] 		VXDTrackerHits 0 5 11 
+[ MESSAGE "MyCEDViewer"] 		SITTrackerHits 0 5 11 
+[ MESSAGE "MyCEDViewer"] 		TPCTrackerHits 0 5 11 
+[ MESSAGE "MyCEDViewer"] 		FTDTrackerHits 0 5 11 
+[ MESSAGE "MyCEDViewer"] 		FTDStripTrackerHits 0 5 11 
+[ MESSAGE "MyCEDViewer"] 		FTDPixelTrackerHits 0 5 11 
+[ MESSAGE "MyCEDViewer"] 		FTDSpacePoints 0 5 11 
+[ MESSAGE "MyCEDViewer"] 		SETTrackerHits 0 5 11 
+[ MESSAGE "MyCEDViewer"] 		ITrackerEndcapHits 0 5 11 
+[ MESSAGE "MyCEDViewer"] 		ITrackerHits 0 5 11 
+[ MESSAGE "MyCEDViewer"] 		OTrackerEndcapHits 0 5 11 
+[ MESSAGE "MyCEDViewer"] 		OTrackerHits 0 5 11 
+[ MESSAGE "MyCEDViewer"] 		VXDEndcapTrackerHits 0 5 11 
+[ MESSAGE "MyCEDViewer"] 		LHcalCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		LumiCalCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		MuonBarrelCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		MuonEndCapCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		EcalBarrelSiliconCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		EcalBarrelSiliconPreShower 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		EcalEndcapRingCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		EcalEndcapRingPreShower 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		EcalEndcapSiliconCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		EcalEndcapSiliconPreShower 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		HcalBarrelRegCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		HcalEndCapRingCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		HcalEndCapsCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		HcalEndcapRingCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		HcalEndcapsCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		ECalBarrelSiHitsEven 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		ECalBarrelSiHitsOdd 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		ECalEndcapSiHitsEven 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		ECalEndcapSiHitsOdd 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		EcalBarrelCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		EcalEndcapsCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		YokeEndcapsCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		ECalBarrelCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		ECalEndcapCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		ECalPlugCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		EcalBarrelCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		EcalEndcapCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		EcalPlugCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		HCalBarrelCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		HCalEndcapCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		HCalRingCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		YokeBarrelCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		YokeEndcapCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		LumiCalCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		BeamCalCollection 0 3 2 
+[ MESSAGE "MyCEDViewer"] 		HCALEndcap 0 5 12 
+[ MESSAGE "MyCEDViewer"] 		HCALOther 0 5 12 
+[ MESSAGE "MyCEDViewer"] 		MUON 0 2 12 
+[ MESSAGE "MyCEDViewer"] 		LHCAL 0 3 12 
+[ MESSAGE "MyCEDViewer"] 		LCAL 0 3 12 
+[ MESSAGE "MyCEDViewer"] 		BCAL 0 3 12 
+[ MESSAGE "MyCEDViewer"] 		ECALBarrel 0 2 12 
+[ MESSAGE "MyCEDViewer"] 		ECALEndcap 0 2 12 
+[ MESSAGE "MyCEDViewer"] 		ECALOther 0 2 12 
+[ MESSAGE "MyCEDViewer"] 		HCALBarrel 0 5 12 
+[ MESSAGE "MyCEDViewer"] 		EcalBarrelCollectionRec 0 5 12 
+[ MESSAGE "MyCEDViewer"] 		EcalEndcapRingCollectionRec 0 5 12 
+[ MESSAGE "MyCEDViewer"] 		EcalEndcapsCollectionRec 0 5 12 
+[ MESSAGE "MyCEDViewer"] 		HcalBarrelCollectionRec 0 5 12 
+[ MESSAGE "MyCEDViewer"] 		HcalEndcapRingCollectionRec 0 5 12 
+[ MESSAGE "MyCEDViewer"] 		HcalEndcapsCollectionRec 0 5 12 
+[ MESSAGE "MyCEDViewer"] 		TruthTracks 0 6 3 
+[ MESSAGE "MyCEDViewer"] 		ForwardTracks 0 6 4 
+[ MESSAGE "MyCEDViewer"] 		SiTracks 0 6 5 
+[ MESSAGE "MyCEDViewer"] 		ClupatraTracks 0 6 6 
+[ MESSAGE "MyCEDViewer"] 		MarlinTrkTracks 0 6 7 
+[ MESSAGE "MyCEDViewer"] 		PandoraClusters 0 3 8 
+[ MESSAGE "MyCEDViewer"] 		PandoraPFOs 0 3 9 
+[ MESSAGE "MyCEDViewer"] 		MCParticle 0 3 0 
+[ MESSAGE "MyCEDViewer"] 		VertexBarrelHits 0 5 11 
+[ MESSAGE "MyCEDViewer"] 		VertexEndcapHits 0 5 11 
+[ MESSAGE "MyCEDViewer"] 		InnerTrackerBarrelHits 0 5 11 
+[ MESSAGE "MyCEDViewer"] 		InnerTrackerEndcapHits 0 5 11 
+[ MESSAGE "MyCEDViewer"] 		OuterTrackerBarrelHits 0 5 11 
+[ MESSAGE "MyCEDViewer"] 		OuterTrackerEndcapHits 0 5 11 
+[ MESSAGE "MyCEDViewer"] 		ECalBarrelHits 0 3 12 
+[ MESSAGE "MyCEDViewer"] 		ECalEndcapHits 0 3 12 
+[ MESSAGE "MyCEDViewer"] 		ECalPlugHits 0 3 12 
+[ MESSAGE "MyCEDViewer"] 		HCalBarrelHits 0 3 12 
+[ MESSAGE "MyCEDViewer"] 		HCalEndcapHits 0 3 12 
+[ MESSAGE "MyCEDViewer"] 		HCalRingHits 0 3 12 
+[ MESSAGE "MyCEDViewer"] 		YokeBarrelHits 0 3 12 
+[ MESSAGE "MyCEDViewer"] 		YokeEndcapHits 0 3 12 
+[ MESSAGE "MyCEDViewer"] 		LumiCalHits 0 3 12 
+[ MESSAGE "MyCEDViewer"] 		BeamCalHits 0 3 12 
+[ MESSAGE "MyCEDViewer"] 		Tracks 0 3 3 
+[ MESSAGE "MyCEDViewer"] 		SelectedPandoraPFOCollection 0 3 4 
+[ MESSAGE "MyCEDViewer"] 		LooseSelectedPandoraPFOCollection 0 3 5 
+[ MESSAGE "MyCEDViewer"] 		TightSelectedPandoraPFOCollection 0 3 6 
+[ MESSAGE "MyCEDViewer"] 		PandoraPFOCollection 0 3 7 
+[ MESSAGE "MyCEDViewer"] 		JetOut 0 0 3 
+[ MESSAGE "MyCEDViewer"] 	DrawSurfaces:  false
+[ MESSAGE "MyCEDViewer"] 	HelixMaxR:  2000
+[ MESSAGE "MyCEDViewer"] 	HelixMaxZ:  2500
+[ MESSAGE "MyCEDViewer"] 	MCParticleEnergyCut:  0.001
+[ MESSAGE "MyCEDViewer"] 	ScaleLineThickness:  1
+[ MESSAGE "MyCEDViewer"] 	ScaleMarkerSize:  1
+[ MESSAGE "MyCEDViewer"] 	UseColorForHelixTracks:  0
+[ MESSAGE "MyCEDViewer"] 	UseTrackerExtentForLimitsOfHelix:  true
+[ MESSAGE "MyCEDViewer"] 	UsingParticleGun:  false
+[ MESSAGE "MyCEDViewer"] 	WaitForKeyboard:  1
+[ MESSAGE "MyCEDViewer"] -------------------------------------------------
+[ MESSAGE "MyCEDViewer"] Use user defined port 6862
+[ MESSAGE "MyCEDViewer"]  ---- selected color scheme:  10
+[ MESSAGE "MyCEDViewer"]     possible options: 
+[ MESSAGE "MyCEDViewer"]       Red          0
+[ MESSAGE "MyCEDViewer"]       Orange       1
+[ MESSAGE "MyCEDViewer"]       Plum         2
+[ MESSAGE "MyCEDViewer"]       Violet       3
+[ MESSAGE "MyCEDViewer"]       Blue         4
+[ MESSAGE "MyCEDViewer"]       LightBlue    5
+[ MESSAGE "MyCEDViewer"]       Aquamarine   6
+[ MESSAGE "MyCEDViewer"]       Green        7
+[ MESSAGE "MyCEDViewer"]       Olive        8
+[ MESSAGE "MyCEDViewer"]       Yellow       9
+[ MESSAGE "MyCEDViewer"]       Dark         10
+[ MESSAGE "MyCEDViewer"]       Light        11
+[ MESSAGE "MyCEDViewer"]       Classic      12
+[ MESSAGE "MyCEDViewer"]  -------- 
+[ MESSAGE "MyCEDViewer"]  ......processing ECalBarrel
+[ MESSAGE "MyCEDViewer"] color: pointer does not exist
+[ MESSAGE "MyCEDViewer"] ECalBarrel has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing ECalEndcap
+[ MESSAGE "MyCEDViewer"] ECalEndcap has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing HCalBarrel
+[ MESSAGE "MyCEDViewer"] HCalBarrel has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing HCalEndcap
+[ MESSAGE "MyCEDViewer"] HCalEndcap has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing HCalRing
+[ MESSAGE "MyCEDViewer"] HCalRing has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing YokeBarrel
+[ MESSAGE "MyCEDViewer"] YokeBarrel has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing YokeEndcap
+[ MESSAGE "MyCEDViewer"] YokeEndcap has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processingInnerTrackerBarrel
+[ MESSAGE "MyCEDViewer"] InnerTrackerBarrel has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processingInnerTrackerEndcap
+ObjectExtensions::extension ERROR The object has no extension of type 38913BA8983BD54C.
+[ MESSAGE "MyCEDViewer"] InnerTrackerEndcap has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processingOuterTrackerBarrel
+[ MESSAGE "MyCEDViewer"] OuterTrackerBarrel has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processingOuterTrackerEndcap
+ObjectExtensions::extension ERROR The object has no extension of type 38913BA8983BD54C.
+[ MESSAGE "MyCEDViewer"] OuterTrackerEndcap has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processingVertexBarrel
+[ MESSAGE "MyCEDViewer"] VertexBarrel has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processingVertexEndcap
+ObjectExtensions::extension ERROR The object has no extension of type 38913BA8983BD54C.
+[ MESSAGE "MyCEDViewer"] VertexEndcap has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing BeampipeInner
+ObjectExtensions::extension ERROR The object has no extension of type 1A9816DEEC10EC9C.
+ObjectExtensions::extension ERROR The object has no extension of type 51E4BB4A77E716AB.
+[ MESSAGE "MyCEDViewer"] BeampipeInner has no extension of type ConicalSupportData/LayeredCalorimeterData. 
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing BeampipeOuter
+ObjectExtensions::extension ERROR The object has no extension of type 1A9816DEEC10EC9C.
+ObjectExtensions::extension ERROR The object has no extension of type 51E4BB4A77E716AB.
+[ MESSAGE "MyCEDViewer"] BeampipeOuter has no extension of type ConicalSupportData/LayeredCalorimeterData. 
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing BeampipeShell
+ObjectExtensions::extension ERROR The object has no extension of type 1A9816DEEC10EC9C.
+ObjectExtensions::extension ERROR The object has no extension of type 51E4BB4A77E716AB.
+[ MESSAGE "MyCEDViewer"] BeampipeShell has no extension of type ConicalSupportData/LayeredCalorimeterData. 
+[ MESSAGE "MyCEDViewer"] color: pointer does not exist
+[ MESSAGE "MyCEDViewer"] Surfaces have been used.
+[ MESSAGE "MyCEDViewer"] BeampipeShell has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing BeampipeShell2
+ObjectExtensions::extension ERROR The object has no extension of type 1A9816DEEC10EC9C.
+ObjectExtensions::extension ERROR The object has no extension of type 51E4BB4A77E716AB.
+[ MESSAGE "MyCEDViewer"] BeampipeShell2 has no extension of type ConicalSupportData/LayeredCalorimeterData. 
+[ MESSAGE "MyCEDViewer"] color: pointer does not exist
+[ MESSAGE "MyCEDViewer"] Surfaces have been used.
+[ MESSAGE "MyCEDViewer"] BeampipeShell2 has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing BeampipeShell3
+ObjectExtensions::extension ERROR The object has no extension of type 1A9816DEEC10EC9C.
+ObjectExtensions::extension ERROR The object has no extension of type 51E4BB4A77E716AB.
+[ MESSAGE "MyCEDViewer"] BeampipeShell3 has no extension of type ConicalSupportData/LayeredCalorimeterData. 
+[ MESSAGE "MyCEDViewer"] color: pointer does not exist
+[ MESSAGE "MyCEDViewer"] Surfaces have been used.
+[ MESSAGE "MyCEDViewer"] BeampipeShell3 has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing InnerTrackerBarrelSupport
+ObjectExtensions::extension ERROR The object has no extension of type 1A9816DEEC10EC9C.
+ObjectExtensions::extension ERROR The object has no extension of type 51E4BB4A77E716AB.
+[ MESSAGE "MyCEDViewer"] InnerTrackerBarrelSupport has no extension of type ConicalSupportData/LayeredCalorimeterData. 
+[ MESSAGE "MyCEDViewer"] color: pointer does not exist
+[ MESSAGE "MyCEDViewer"] Surfaces have been used.
+[ MESSAGE "MyCEDViewer"] InnerTrackerBarrelSupport has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing InnerTrackerEndcapSupport
+ObjectExtensions::extension ERROR The object has no extension of type 1A9816DEEC10EC9C.
+ObjectExtensions::extension ERROR The object has no extension of type 51E4BB4A77E716AB.
+[ MESSAGE "MyCEDViewer"] InnerTrackerEndcapSupport has no extension of type ConicalSupportData/LayeredCalorimeterData. 
+[ MESSAGE "MyCEDViewer"] color: pointer does not exist
+[ MESSAGE "MyCEDViewer"] Surfaces have been used.
+[ MESSAGE "MyCEDViewer"] InnerTrackerEndcapSupport has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing InnerTrackerInterlink
+ObjectExtensions::extension ERROR The object has no extension of type 1A9816DEEC10EC9C.
+ObjectExtensions::extension ERROR The object has no extension of type 51E4BB4A77E716AB.
+[ MESSAGE "MyCEDViewer"] InnerTrackerInterlink has no extension of type ConicalSupportData/LayeredCalorimeterData. 
+[ MESSAGE "MyCEDViewer"] color: pointer does not exist
+[ MESSAGE "MyCEDViewer"] Surfaces have been used.
+[ MESSAGE "MyCEDViewer"] InnerTrackerInterlink has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing InnerTrackerVertexCable
+ObjectExtensions::extension ERROR The object has no extension of type 1A9816DEEC10EC9C.
+ObjectExtensions::extension ERROR The object has no extension of type 51E4BB4A77E716AB.
+[ MESSAGE "MyCEDViewer"] InnerTrackerVertexCable has no extension of type ConicalSupportData/LayeredCalorimeterData. 
+[ MESSAGE "MyCEDViewer"] color: pointer does not exist
+[ MESSAGE "MyCEDViewer"] Surfaces have been used.
+[ MESSAGE "MyCEDViewer"] InnerTrackerVertexCable has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing NozzleBCH_left
+ObjectExtensions::extension ERROR The object has no extension of type 1A9816DEEC10EC9C.
+ObjectExtensions::extension ERROR The object has no extension of type 51E4BB4A77E716AB.
+[ MESSAGE "MyCEDViewer"] NozzleBCH_left has no extension of type ConicalSupportData/LayeredCalorimeterData. 
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing NozzleBCH_right
+ObjectExtensions::extension ERROR The object has no extension of type 1A9816DEEC10EC9C.
+ObjectExtensions::extension ERROR The object has no extension of type 51E4BB4A77E716AB.
+[ MESSAGE "MyCEDViewer"] NozzleBCH_right has no extension of type ConicalSupportData/LayeredCalorimeterData. 
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing NozzleW_left
+ObjectExtensions::extension ERROR The object has no extension of type 1A9816DEEC10EC9C.
+ObjectExtensions::extension ERROR The object has no extension of type 51E4BB4A77E716AB.
+[ MESSAGE "MyCEDViewer"] NozzleW_left has no extension of type ConicalSupportData/LayeredCalorimeterData. 
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing NozzleW_right
+ObjectExtensions::extension ERROR The object has no extension of type 1A9816DEEC10EC9C.
+ObjectExtensions::extension ERROR The object has no extension of type 51E4BB4A77E716AB.
+[ MESSAGE "MyCEDViewer"] NozzleW_right has no extension of type ConicalSupportData/LayeredCalorimeterData. 
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing OuterTrackerBarrelSupport
+ObjectExtensions::extension ERROR The object has no extension of type 1A9816DEEC10EC9C.
+ObjectExtensions::extension ERROR The object has no extension of type 51E4BB4A77E716AB.
+[ MESSAGE "MyCEDViewer"] OuterTrackerBarrelSupport has no extension of type ConicalSupportData/LayeredCalorimeterData. 
+[ MESSAGE "MyCEDViewer"] color: pointer does not exist
+[ MESSAGE "MyCEDViewer"] Surfaces have been used.
+[ MESSAGE "MyCEDViewer"] OuterTrackerBarrelSupport has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing OuterTrackerEndcapSupport
+ObjectExtensions::extension ERROR The object has no extension of type 1A9816DEEC10EC9C.
+ObjectExtensions::extension ERROR The object has no extension of type 51E4BB4A77E716AB.
+[ MESSAGE "MyCEDViewer"] OuterTrackerEndcapSupport has no extension of type ConicalSupportData/LayeredCalorimeterData. 
+[ MESSAGE "MyCEDViewer"] color: pointer does not exist
+[ MESSAGE "MyCEDViewer"] Surfaces have been used.
+[ MESSAGE "MyCEDViewer"] OuterTrackerEndcapSupport has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing SolenoidBarrel
+ObjectExtensions::extension ERROR The object has no extension of type 1A9816DEEC10EC9C.
+[ MESSAGE "MyCEDViewer"] SolenoidBarrel has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing SolenoidEndcaps
+ObjectExtensions::extension ERROR The object has no extension of type 1A9816DEEC10EC9C.
+ObjectExtensions::extension ERROR The object has no extension of type 51E4BB4A77E716AB.
+[ MESSAGE "MyCEDViewer"] SolenoidEndcaps has no extension of type ConicalSupportData/LayeredCalorimeterData. 
+[ MESSAGE "MyCEDViewer"] color: pointer does not exist
+[ VERBOSE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  ......processing VertexVerticalCable
+ObjectExtensions::extension ERROR The object has no extension of type 1A9816DEEC10EC9C.
+Use port 6862

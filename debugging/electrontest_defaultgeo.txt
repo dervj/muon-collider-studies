@@ -1,0 +1,1155 @@
+PersistencyIO    INFO  +++ Set Streamer to dd4hep::OpaqueDataBlock
+XMLLoader        INFO  +++ Processing XML file: file:/opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/lcgeo-0.20-grx3loszut2wlx5dbtguwxcuxs7whjad/share/lcgeo/compact/MuColl/MuColl_v1/MuColl_v1.xml
+DD4hep           WARN  ++ STD conditions NOT defined by client. NTP defaults taken.
+Detector         INFO  *********** Created World volume with size: 3000 3000 3000
+Compact          INFO  ++ Converted subdetector:BeampipeInner of type DD4hep_PolyconeSupport 
+Compact          INFO  ++ Converted subdetector:BeampipeOuter of type DD4hep_PolyconeSupport 
+Compact          INFO  ++ Converted subdetector:NozzleW_right of type DD4hep_PolyconeSupport 
+Compact          INFO  ++ Converted subdetector:NozzleW_left of type DD4hep_PolyconeSupport 
+Compact          INFO  ++ Converted subdetector:NozzleBCH_right of type DD4hep_PolyconeSupport 
+Compact          INFO  ++ Converted subdetector:NozzleBCH_left of type DD4hep_PolyconeSupport 
+Utilities        INFO  +++ setDetectorTypeFlags for detector: Vertex not set.
+Compact          INFO  ++ Converted subdetector:Vertex of type DD4hep_SubdetectorAssembly 
+Compact          INFO  ++ Converted subdetector:VertexBarrel of type ZSegmentedPlanarTracker [tracker]
+XXX Vertex endcap layers: 8
+Compact          INFO  ++ Converted subdetector:VertexEndcap of type VertexEndcap_o1_v06 [tracker]
+Compact          INFO  ++ Converted subdetector:VertexVerticalCable of type TrackerEndcapSupport_o1_v02 
+VertexEndcap     INFO  +++ Processing SurfaceInstaller for subdetector: 'VertexEndcap'
+DD4hep_GenericSurfaceInstallerPlugin: argument[1] = dimension = 2
+DD4hep_GenericSurfaceInstallerPlugin: argument[2] = u_x = -1
+DD4hep_GenericSurfaceInstallerPlugin: argument[3] = v_z = 1
+DD4hep_GenericSurfaceInstallerPlugin: argument[4] = n_y = 1
+DD4hep_GenericSurfaceInstallerPlugin: vectors: u( -1 , 0 , 0) v( 0 , 0 , 1) n( 0 , 1 , 0) o( 0 , 0 , 0) 
+Utilities        INFO  +++ setDetectorTypeFlags for detector: InnerTrackers not set.
+Compact          INFO  ++ Converted subdetector:InnerTrackers of type DD4hep_SubdetectorAssembly 
+Compact          INFO  ++ Converted subdetector:InnerTrackerBarrel of type TrackerBarrel_o1_v05 [tracker]
+Compact          INFO  ++ Converted subdetector:InnerTrackerEndcap of type TrackerEndcap_o2_v06 [tracker]
+Compact          INFO  ++ Converted subdetector:InnerTrackerBarrelSupport of type TrackerBarrelSupport_o1_v01 
+Compact          INFO  ++ Converted subdetector:InnerTrackerEndcapSupport of type TrackerEndcapSupport_o1_v02 
+Compact          INFO  ++ Converted subdetector:InnerTrackerInterlink of type TubeSupport_o1_v01 
+Compact          INFO  ++ Converted subdetector:InnerTrackerVertexCable of type TubeSupport_o1_v01 
+Compact          INFO  ++ Converted subdetector:BeampipeShell of type ConicalSupport_o1_v01 
+Compact          INFO  ++ Converted subdetector:BeampipeShell2 of type TrackerEndcapSupport_o1_v02 
+Compact          INFO  ++ Converted subdetector:BeampipeShell3 of type TrackerBarrelSupport_o1_v01 
+InnerTrackerBarrel INFO  +++ Processing SurfaceInstaller for subdetector: 'InnerTrackerBarrel'
+DD4hep_GenericSurfaceInstallerPlugin: argument[1] = dimension = 2
+DD4hep_GenericSurfaceInstallerPlugin: argument[2] = u_x = 1
+DD4hep_GenericSurfaceInstallerPlugin: argument[3] = v_y = 1
+DD4hep_GenericSurfaceInstallerPlugin: argument[4] = n_z = 1
+DD4hep_GenericSurfaceInstallerPlugin: vectors: u( 1 , 0 , 0) v( 0 , 1 , 0) n( 0 , 0 , 1) o( 0 , 0 , 0) 
+InnerTrackerEndcap INFO  +++ Processing SurfaceInstaller for subdetector: 'InnerTrackerEndcap'
+DD4hep_GenericSurfaceInstallerPlugin: argument[1] = dimension = 2
+DD4hep_GenericSurfaceInstallerPlugin: argument[2] = u_x = 1
+DD4hep_GenericSurfaceInstallerPlugin: argument[3] = v_y = 1
+DD4hep_GenericSurfaceInstallerPlugin: argument[4] = n_z = 1
+DD4hep_GenericSurfaceInstallerPlugin: vectors: u( 1 , 0 , 0) v( 0 , 1 , 0) n( 0 , 0 , 1) o( 0 , 0 , 0) 
+Utilities        INFO  +++ setDetectorTypeFlags for detector: OuterTrackers not set.
+Compact          INFO  ++ Converted subdetector:OuterTrackers of type DD4hep_SubdetectorAssembly 
+Compact          INFO  ++ Converted subdetector:OuterTrackerBarrel of type TrackerBarrel_o1_v05 [tracker]
+Compact          INFO  ++ Converted subdetector:OuterTrackerEndcap of type TrackerEndcap_o2_v06 [tracker]
+Compact          INFO  ++ Converted subdetector:OuterTrackerBarrelSupport of type TrackerBarrelSupport_o1_v01 
+Compact          INFO  ++ Converted subdetector:OuterTrackerEndcapSupport of type TrackerEndcapSupport_o1_v02 
+OuterTrackerBarrel INFO  +++ Processing SurfaceInstaller for subdetector: 'OuterTrackerBarrel'
+DD4hep_GenericSurfaceInstallerPlugin: argument[1] = dimension = 2
+DD4hep_GenericSurfaceInstallerPlugin: argument[2] = u_x = 1
+DD4hep_GenericSurfaceInstallerPlugin: argument[3] = v_y = 1
+DD4hep_GenericSurfaceInstallerPlugin: argument[4] = n_z = 1
+DD4hep_GenericSurfaceInstallerPlugin: vectors: u( 1 , 0 , 0) v( 0 , 1 , 0) n( 0 , 0 , 1) o( 0 , 0 , 0) 
+OuterTrackerEndcap INFO  +++ Processing SurfaceInstaller for subdetector: 'OuterTrackerEndcap'
+DD4hep_GenericSurfaceInstallerPlugin: argument[1] = dimension = 2
+DD4hep_GenericSurfaceInstallerPlugin: argument[2] = u_x = 1
+DD4hep_GenericSurfaceInstallerPlugin: argument[3] = v_y = 1
+DD4hep_GenericSurfaceInstallerPlugin: argument[4] = n_z = 1
+DD4hep_GenericSurfaceInstallerPlugin: vectors: u( 1 , 0 , 0) v( 0 , 1 , 0) n( 0 , 0 , 1) o( 0 , 0 , 0) 
+Layer: 0 Rmin: 150 layer_pos_z: -9.8475 Dist: 150 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 1 Rmin: 150 layer_pos_z: -9.3425 Dist: 150.505 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 2 Rmin: 150 layer_pos_z: -8.8375 Dist: 151.01 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 3 Rmin: 150 layer_pos_z: -8.3325 Dist: 151.515 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 4 Rmin: 150 layer_pos_z: -7.8275 Dist: 152.02 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 5 Rmin: 150 layer_pos_z: -7.3225 Dist: 152.525 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 6 Rmin: 150 layer_pos_z: -6.8175 Dist: 153.03 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 7 Rmin: 150 layer_pos_z: -6.3125 Dist: 153.535 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 8 Rmin: 150 layer_pos_z: -5.8075 Dist: 154.04 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 9 Rmin: 150 layer_pos_z: -5.3025 Dist: 154.545 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 10 Rmin: 150 layer_pos_z: -4.7975 Dist: 155.05 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 11 Rmin: 150 layer_pos_z: -4.2925 Dist: 155.555 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 12 Rmin: 150 layer_pos_z: -3.7875 Dist: 156.06 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 13 Rmin: 150 layer_pos_z: -3.2825 Dist: 156.565 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 14 Rmin: 150 layer_pos_z: -2.7775 Dist: 157.07 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 15 Rmin: 150 layer_pos_z: -2.2725 Dist: 157.575 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 16 Rmin: 150 layer_pos_z: -1.7675 Dist: 158.08 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 17 Rmin: 150 layer_pos_z: -1.2625 Dist: 158.585 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 18 Rmin: 150 layer_pos_z: -0.7575 Dist: 159.09 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 19 Rmin: 150 layer_pos_z: -0.2525 Dist: 159.595 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 20 Rmin: 150 layer_pos_z: 0.2525 Dist: 160.1 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 21 Rmin: 150 layer_pos_z: 0.7575 Dist: 160.605 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 22 Rmin: 150 layer_pos_z: 1.2625 Dist: 161.11 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 23 Rmin: 150 layer_pos_z: 1.7675 Dist: 161.615 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 24 Rmin: 150 layer_pos_z: 2.2725 Dist: 162.12 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 25 Rmin: 150 layer_pos_z: 2.7775 Dist: 162.625 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 26 Rmin: 150 layer_pos_z: 3.2825 Dist: 163.13 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 27 Rmin: 150 layer_pos_z: 3.7875 Dist: 163.635 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 28 Rmin: 150 layer_pos_z: 4.2925 Dist: 164.14 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 29 Rmin: 150 layer_pos_z: 4.7975 Dist: 164.645 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 30 Rmin: 150 layer_pos_z: 5.3025 Dist: 165.15 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 31 Rmin: 150 layer_pos_z: 5.8075 Dist: 165.655 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 32 Rmin: 150 layer_pos_z: 6.3125 Dist: 166.16 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 33 Rmin: 150 layer_pos_z: 6.8175 Dist: 166.665 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 34 Rmin: 150 layer_pos_z: 7.3225 Dist: 167.17 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 35 Rmin: 150 layer_pos_z: 7.8275 Dist: 167.675 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 36 Rmin: 150 layer_pos_z: 8.3325 Dist: 168.18 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 37 Rmin: 150 layer_pos_z: 8.8375 Dist: 168.685 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 38 Rmin: 150 layer_pos_z: 9.3425 Dist: 169.19 inner_thickness: 0.24 outer_thickness: 0.265
+Layer: 39 Rmin: 150 layer_pos_z: 9.8475 Dist: 169.695 inner_thickness: 0.24 outer_thickness: 0.265
+Compact          INFO  ++ Converted subdetector:ECalBarrel of type GenericCalBarrel_o1_v01 [calorimeter]
+ECalBarrel       INFO  +++ Processing SurfaceInstaller for subdetector: 'ECalBarrel'
+DD4hep_CaloFaceBarrelSurfacePlugin INFO  install tracking surfaces for :  ECalBarrel 
+Number of layers in group 0 : 40
+Compact          INFO  ++ Converted subdetector:ECalEndcap of type GenericCalEndcap_o1_v01 [calorimeter]
+ECalEndcap       INFO  +++ Processing SurfaceInstaller for subdetector: 'ECalEndcap'
+DD4hep_CaloFaceEndcapSurfacePlugin INFO  install tracking surfaces for :  ECalEndcap 
+Layer: 0 Rmin: 174 layer_pos_z: -78.175 Dist: 174 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 1 Rmin: 174 layer_pos_z: -75.525 Dist: 176.65 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 2 Rmin: 174 layer_pos_z: -72.875 Dist: 179.3 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 3 Rmin: 174 layer_pos_z: -70.225 Dist: 181.95 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 4 Rmin: 174 layer_pos_z: -67.575 Dist: 184.6 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 5 Rmin: 174 layer_pos_z: -64.925 Dist: 187.25 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 6 Rmin: 174 layer_pos_z: -62.275 Dist: 189.9 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 7 Rmin: 174 layer_pos_z: -59.625 Dist: 192.55 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 8 Rmin: 174 layer_pos_z: -56.975 Dist: 195.2 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 9 Rmin: 174 layer_pos_z: -54.325 Dist: 197.85 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 10 Rmin: 174 layer_pos_z: -51.675 Dist: 200.5 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 11 Rmin: 174 layer_pos_z: -49.025 Dist: 203.15 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 12 Rmin: 174 layer_pos_z: -46.375 Dist: 205.8 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 13 Rmin: 174 layer_pos_z: -43.725 Dist: 208.45 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 14 Rmin: 174 layer_pos_z: -41.075 Dist: 211.1 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 15 Rmin: 174 layer_pos_z: -38.425 Dist: 213.75 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 16 Rmin: 174 layer_pos_z: -35.775 Dist: 216.4 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 17 Rmin: 174 layer_pos_z: -33.125 Dist: 219.05 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 18 Rmin: 174 layer_pos_z: -30.475 Dist: 221.7 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 19 Rmin: 174 layer_pos_z: -27.825 Dist: 224.35 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 20 Rmin: 174 layer_pos_z: -25.175 Dist: 227 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 21 Rmin: 174 layer_pos_z: -22.525 Dist: 229.65 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 22 Rmin: 174 layer_pos_z: -19.875 Dist: 232.3 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 23 Rmin: 174 layer_pos_z: -17.225 Dist: 234.95 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 24 Rmin: 174 layer_pos_z: -14.575 Dist: 237.6 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 25 Rmin: 174 layer_pos_z: -11.925 Dist: 240.25 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 26 Rmin: 174 layer_pos_z: -9.275 Dist: 242.9 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 27 Rmin: 174 layer_pos_z: -6.625 Dist: 245.55 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 28 Rmin: 174 layer_pos_z: -3.975 Dist: 248.2 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 29 Rmin: 174 layer_pos_z: -1.325 Dist: 250.85 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 30 Rmin: 174 layer_pos_z: 1.325 Dist: 253.5 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 31 Rmin: 174 layer_pos_z: 3.975 Dist: 256.15 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 32 Rmin: 174 layer_pos_z: 6.625 Dist: 258.8 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 33 Rmin: 174 layer_pos_z: 9.275 Dist: 261.45 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 34 Rmin: 174 layer_pos_z: 11.925 Dist: 264.1 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 35 Rmin: 174 layer_pos_z: 14.575 Dist: 266.75 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 36 Rmin: 174 layer_pos_z: 17.225 Dist: 269.4 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 37 Rmin: 174 layer_pos_z: 19.875 Dist: 272.05 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 38 Rmin: 174 layer_pos_z: 22.525 Dist: 274.7 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 39 Rmin: 174 layer_pos_z: 25.175 Dist: 277.35 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 40 Rmin: 174 layer_pos_z: 27.825 Dist: 280 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 41 Rmin: 174 layer_pos_z: 30.475 Dist: 282.65 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 42 Rmin: 174 layer_pos_z: 33.125 Dist: 285.3 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 43 Rmin: 174 layer_pos_z: 35.775 Dist: 287.95 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 44 Rmin: 174 layer_pos_z: 38.425 Dist: 290.6 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 45 Rmin: 174 layer_pos_z: 41.075 Dist: 293.25 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 46 Rmin: 174 layer_pos_z: 43.725 Dist: 295.9 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 47 Rmin: 174 layer_pos_z: 46.375 Dist: 298.55 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 48 Rmin: 174 layer_pos_z: 49.025 Dist: 301.2 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 49 Rmin: 174 layer_pos_z: 51.675 Dist: 303.85 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 50 Rmin: 174 layer_pos_z: 54.325 Dist: 306.5 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 51 Rmin: 174 layer_pos_z: 56.975 Dist: 309.15 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 52 Rmin: 174 layer_pos_z: 59.625 Dist: 311.8 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 53 Rmin: 174 layer_pos_z: 62.275 Dist: 314.45 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 54 Rmin: 174 layer_pos_z: 64.925 Dist: 317.1 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 55 Rmin: 174 layer_pos_z: 67.575 Dist: 319.75 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 56 Rmin: 174 layer_pos_z: 70.225 Dist: 322.4 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 57 Rmin: 174 layer_pos_z: 72.875 Dist: 325.05 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 58 Rmin: 174 layer_pos_z: 75.525 Dist: 327.7 inner_thickness: 2.1 outer_thickness: 0.55
+Layer: 59 Rmin: 174 layer_pos_z: 78.175 Dist: 330.35 inner_thickness: 2.1 outer_thickness: 0.55
+Compact          INFO  ++ Converted subdetector:HCalBarrel of type GenericCalBarrel_o1_v01 [calorimeter]
+Utilities        INFO  +++ setDetectorTypeFlags for detector: HCalEndcaps not set.
+Compact          INFO  ++ Converted subdetector:HCalEndcaps of type DD4hep_SubdetectorAssembly 
+Number of layers in group 0 : 12
+Number of layers in group 1 : 12
+Number of layers in group 2 : 12
+Number of layers in group 3 : 12
+Number of layers in group 4 : 12
+Compact          INFO  ++ Converted subdetector:HCalEndcap of type GenericCalEndcap_o2_v01 [calorimeter]
+Cutout z width will be  18.55
+Number of layers in group 0 : 7
+Compact          INFO  ++ Converted subdetector:HCalRing of type GenericCalEndcap_o1_v01 [calorimeter]
+Utilities        INFO  +++ setDetectorTypeFlags for detector: Solenoid not set.
+Compact          INFO  ++ Converted subdetector:Solenoid of type DD4hep_SubdetectorAssembly 
+Compact          INFO  ++ Converted subdetector:SolenoidBarrel of type DD4hep_Solenoid_o1_v01 
+Compact          INFO  ++ Converted subdetector:SolenoidEndcaps of type DD4hep_DiskTracker 
+Layer: 0 Rmin: 446.1 layer_pos_z: -85.2 Dist: 446.1 inner_thickness: 0.75 outer_thickness: 27.65
+Layer: 1 Rmin: 446.1 layer_pos_z: -56.8 Dist: 474.5 inner_thickness: 0.75 outer_thickness: 27.65
+Layer: 2 Rmin: 446.1 layer_pos_z: -28.4 Dist: 502.9 inner_thickness: 0.75 outer_thickness: 27.65
+Layer: 3 Rmin: 446.1 layer_pos_z: 3.55271e-15 Dist: 531.3 inner_thickness: 0.75 outer_thickness: 27.65
+Layer: 4 Rmin: 446.1 layer_pos_z: 28.4 Dist: 559.7 inner_thickness: 0.75 outer_thickness: 27.65
+Layer: 5 Rmin: 446.1 layer_pos_z: 56.8 Dist: 588.1 inner_thickness: 0.75 outer_thickness: 27.65
+Layer: 6 Rmin: 446.1 layer_pos_z: 85.2 Dist: 616.5 inner_thickness: 0.75 outer_thickness: 27.65
+Compact          INFO  ++ Converted subdetector:YokeBarrel of type GenericCalBarrel_o1_v01 [calorimeter]
+Number of layers in group 0 : 1
+Number of layers in group 1 : 1
+Number of layers in group 2 : 1
+Number of layers in group 3 : 1
+Number of layers in group 4 : 1
+Number of layers in group 5 : 1
+Number of layers in group 6 : 1
+Compact          INFO  ++ Converted subdetector:YokeEndcap of type GenericCalEndcap_o2_v01 [calorimeter]
+Compact          INFO  ++ Converted field: Successfully created field GlobalSolenoid [solenoid]
+Detector         INFO  +++ Patching names of anonymous shapes....
+DD4hepVolumeManager INFO  **** running plugin DD4hepVolumeManager ! 
+VolumeManager    INFO   - populating volume ids - be patient ...
+VolumeManager    INFO   - populating volume ids - done. 78475 nodes.
+VolumeManager    INFO  +++ Volume manager populated and loaded.
+InstallSurfaceManager INFO  **** running plugin InstallSurfaceManager ! 
+InstallSurfaceManager INFO  --------  SurfaceManager contains the following maps : --------- 
+  key: BeampipeInner 	 number of surfaces : 0
+  key: BeampipeOuter 	 number of surfaces : 0
+  key: BeampipeShell 	 number of surfaces : 4
+  key: BeampipeShell2 	 number of surfaces : 4
+  key: BeampipeShell3 	 number of surfaces : 1
+  key: ECalBarrel 	 number of surfaces : 12
+  key: ECalEndcap 	 number of surfaces : 2
+  key: HCalBarrel 	 number of surfaces : 0
+  key: HCalEndcap 	 number of surfaces : 0
+  key: HCalEndcaps 	 number of surfaces : 0
+  key: HCalRing 	 number of surfaces : 0
+  key: InnerTrackerBarrel 	 number of surfaces : 9032
+  key: InnerTrackerBarrelSupport 	 number of surfaces : 4
+  key: InnerTrackerEndcap 	 number of surfaces : 1196
+  key: InnerTrackerEndcapSupport 	 number of surfaces : 20
+  key: InnerTrackerInterlink 	 number of surfaces : 2
+  key: InnerTrackerVertexCable 	 number of surfaces : 2
+  key: InnerTrackers 	 number of surfaces : 10265
+  key: NozzleBCH_left 	 number of surfaces : 0
+  key: NozzleBCH_right 	 number of surfaces : 0
+  key: NozzleW_left 	 number of surfaces : 0
+  key: NozzleW_right 	 number of surfaces : 0
+  key: OuterTrackerBarrel 	 number of surfaces : 64512
+  key: OuterTrackerBarrelSupport 	 number of surfaces : 3
+  key: OuterTrackerEndcap 	 number of surfaces : 1152
+  key: OuterTrackerEndcapSupport 	 number of surfaces : 12
+  key: OuterTrackers 	 number of surfaces : 65679
+  key: Solenoid 	 number of surfaces : 0
+  key: SolenoidBarrel 	 number of surfaces : 0
+  key: SolenoidEndcaps 	 number of surfaces : 0
+  key: Vertex 	 number of surfaces : 1068
+  key: VertexBarrel 	 number of surfaces : 810
+  key: VertexEndcap 	 number of surfaces : 256
+  key: VertexVerticalCable 	 number of surfaces : 2
+  key: YokeBarrel 	 number of surfaces : 0
+  key: YokeEndcap 	 number of surfaces : 0
+  key: calorimeter 	 number of surfaces : 14
+  key: compound 	 number of surfaces : 77012
+  key: passive 	 number of surfaces : 54
+  key: tracker 	 number of surfaces : 76958
+  key: world 	 number of surfaces : 154038
+---------------------------------------------------------------- 
+
+DDG4             INFO +++ Imported 230 global values to namespace:DDG4
+Geant4Kernel           OutputLevel:  2
+Geant4Kernel           UI:           UI
+Geant4Kernel           NumEvents:    10
+DDG4             INFO +++  List of sensitive detectors:
+Geant4Kernel           NumThreads:   0
+DDG4             INFO +++  ECalBarrel                       type:calorimeter   --> Sensitive type: Geant4ScintillatorCalorimeterAction
+DDG4             INFO +++  ECalEndcap                       type:calorimeter   --> Sensitive type: Geant4ScintillatorCalorimeterAction
+DDG4             INFO +++  HCalBarrel                       type:calorimeter   --> Sensitive type: Geant4ScintillatorCalorimeterAction
+DDG4             INFO +++  HCalEndcap                       type:calorimeter   --> Sensitive type: Geant4ScintillatorCalorimeterAction
+DDG4             INFO +++  HCalRing                         type:calorimeter   --> Sensitive type: Geant4ScintillatorCalorimeterAction
+DDG4             INFO +++  InnerTrackerBarrel               type:tracker       --> Sensitive type: Geant4TrackerWeightedAction
+DDG4             INFO +++  InnerTrackerEndcap               type:tracker       --> Sensitive type: Geant4TrackerWeightedAction
+DDG4             INFO +++  OuterTrackerBarrel               type:tracker       --> Sensitive type: Geant4TrackerWeightedAction
+DDG4             INFO +++  OuterTrackerEndcap               type:tracker       --> Sensitive type: Geant4TrackerWeightedAction
+DDG4             INFO +++  VertexBarrel                     type:tracker       --> Sensitive type: Geant4TrackerWeightedAction
+DDG4             INFO +++  VertexEndcap                     type:tracker       --> Sensitive type: Geant4TrackerWeightedAction
+DDG4             INFO +++  YokeBarrel                       type:calorimeter   --> Sensitive type: Geant4ScintillatorCalorimeterAction
+DDG4             INFO +++  YokeEndcap                       type:calorimeter   --> Sensitive type: Geant4ScintillatorCalorimeterAction
+Geant4UI         INFO  +++ UI> Install Geant4 control directory:/ddg4/UI/
+Geant4Kernel     INFO  ++ Registered global action UI of type dd4hep::sim::Geant4UIManager
+Geant4UI         INFO  +++ MagFieldTrackingSetup> Install Geant4 control directory:/ddg4/MagFieldTrackingSetup/
+Geant4UI         INFO  +++ DetectorConstructionAction> Install Geant4 control directory:/ddg4/DetectorConstructionAction/
+Geant4UI         INFO  +++ ConstructSD> Install Geant4 control directory:/ddg4/ConstructSD/
+Geant4Kernel     INFO  ++ Registered global action RunInit of type dd4hep::sim::Test::Geant4TestRunAction
+DDSim.Helper.Random INFO Choosing random seed for you: 634667228
+Geant4UI         INFO  +++ RunAction> Install Geant4 control directory:/ddg4/RunAction/
+DDSim.Helper.OutputConfig INFO ++++ Setting up LCIO Output ++++
+Geant4UI         INFO  +++ EventAction> Install Geant4 control directory:/ddg4/EventAction/
+DDSim            INFO Enabling the PrimaryHandler
+Geant4UI         INFO  +++ LcioOutput> Install Geant4 control directory:/ddg4/LcioOutput/
+Geant4UI         INFO  +++ GeneratorAction> Install Geant4 control directory:/ddg4/GeneratorAction/
+Geant4UI         INFO  +++ LCIO4> Install Geant4 control directory:/ddg4/LCIO4/
+Geant4UI         INFO  +++ InteractionMerger> Install Geant4 control directory:/ddg4/InteractionMerger/
+Geant4UI         INFO  +++ PrimaryHandler> Install Geant4 control directory:/ddg4/PrimaryHandler/
+Geant4UI         INFO  +++ TrackingAction> Install Geant4 control directory:/ddg4/TrackingAction/
+Geant4UI         INFO  +++ SteppingAction> Install Geant4 control directory:/ddg4/SteppingAction/
+DDSim.Helper.ParticleHandler INFO  *** definition of tracker region *** 
+DDSim.Helper.ParticleHandler INFO     tracker_region_zmin = -2306
+DDSim.Helper.ParticleHandler INFO     tracker_region_zmax = 2306
+DDSim.Helper.ParticleHandler INFO     tracker_region_rmax = 1499.9
+DDSim.Helper.ParticleHandler INFO  ************************************ 
+DDSim.Helper.Filter INFO ReqFilt {'edep1kev', 'edep0'}
+DDSim            INFO getDetectorLists - found active detector ECalBarrel type: calorimeter
+DDSim            INFO getDetectorLists - Identified ECalBarrel as a calorimeter
+DDSim            INFO getDetectorLists - found active detector ECalEndcap type: calorimeter
+DDSim            INFO getDetectorLists - Identified ECalEndcap as a calorimeter
+DDSim            INFO getDetectorLists - found active detector HCalBarrel type: calorimeter
+DDSim            INFO getDetectorLists - Identified HCalBarrel as a calorimeter
+DDSim            INFO getDetectorLists - found active detector HCalEndcap type: calorimeter
+DDSim            INFO getDetectorLists - Identified HCalEndcap as a calorimeter
+DDSim            INFO getDetectorLists - found active detector HCalRing type: calorimeter
+DDSim            INFO getDetectorLists - Identified HCalRing as a calorimeter
+DDSim            INFO getDetectorLists - found active detector InnerTrackerBarrel type: tracker
+DDSim            INFO getDetectorLists - Identified InnerTrackerBarrel as a tracker
+DDSim            INFO getDetectorLists - found active detector InnerTrackerEndcap type: tracker
+DDSim            INFO getDetectorLists - Identified InnerTrackerEndcap as a tracker
+DDSim            INFO getDetectorLists - found active detector OuterTrackerBarrel type: tracker
+DDSim            INFO getDetectorLists - Identified OuterTrackerBarrel as a tracker
+DDSim            INFO getDetectorLists - found active detector OuterTrackerEndcap type: tracker
+DDSim            INFO getDetectorLists - Identified OuterTrackerEndcap as a tracker
+DDSim            INFO getDetectorLists - found active detector VertexBarrel type: tracker
+DDSim            INFO getDetectorLists - Identified VertexBarrel as a tracker
+DDSim            INFO getDetectorLists - found active detector VertexEndcap type: tracker
+DDSim            INFO getDetectorLists - Identified VertexEndcap as a tracker
+DDSim            INFO getDetectorLists - found active detector YokeBarrel type: calorimeter
+DDSim            INFO getDetectorLists - Identified YokeBarrel as a calorimeter
+DDSim            INFO getDetectorLists - found active detector YokeEndcap type: calorimeter
+DDSim            INFO getDetectorLists - Identified YokeEndcap as a calorimeter
+DDSim            INFO Setting up SD for InnerTrackerBarrel with Geant4TrackerWeightedAction
+Geant4UI         INFO  +++ ParticleHandler> Install Geant4 control directory:/ddg4/ParticleHandler/
+Geant4UI         INFO  +++ InnerTrackerBarrel> Install Geant4 control directory:/ddg4/InnerTrackerBarrel/
+DDSim.Helper.Filter INFO Adding default filter 'edep1kev' to sensitive detector for 'InnerTrackerBarrel' 
+DDSim            INFO Setting up SD for InnerTrackerEndcap with Geant4TrackerWeightedAction
+Geant4UI         INFO  +++ InnerTrackerBarrelHandler> Install Geant4 control directory:/ddg4/InnerTrackerBarrelHandler/
+Geant4UI         INFO  +++ InnerTrackerEndcap> Install Geant4 control directory:/ddg4/InnerTrackerEndcap/
+DDSim.Helper.Filter INFO Adding default filter 'edep1kev' to sensitive detector for 'InnerTrackerEndcap' 
+DDSim            INFO Setting up SD for OuterTrackerBarrel with Geant4TrackerWeightedAction
+Geant4UI         INFO  +++ InnerTrackerEndcapHandler> Install Geant4 control directory:/ddg4/InnerTrackerEndcapHandler/
+Geant4UI         INFO  +++ OuterTrackerBarrel> Install Geant4 control directory:/ddg4/OuterTrackerBarrel/
+DDSim.Helper.Filter INFO Adding default filter 'edep1kev' to sensitive detector for 'OuterTrackerBarrel' 
+DDSim            INFO Setting up SD for OuterTrackerEndcap with Geant4TrackerWeightedAction
+Geant4UI         INFO  +++ OuterTrackerBarrelHandler> Install Geant4 control directory:/ddg4/OuterTrackerBarrelHandler/
+Geant4UI         INFO  +++ OuterTrackerEndcap> Install Geant4 control directory:/ddg4/OuterTrackerEndcap/
+DDSim.Helper.Filter INFO Adding default filter 'edep1kev' to sensitive detector for 'OuterTrackerEndcap' 
+DDSim            INFO Setting up SD for VertexBarrel with Geant4TrackerWeightedAction
+Geant4UI         INFO  +++ OuterTrackerEndcapHandler> Install Geant4 control directory:/ddg4/OuterTrackerEndcapHandler/
+Geant4UI         INFO  +++ VertexBarrel> Install Geant4 control directory:/ddg4/VertexBarrel/
+DDSim.Helper.Filter INFO Adding default filter 'edep1kev' to sensitive detector for 'VertexBarrel' 
+DDSim            INFO Setting up SD for VertexEndcap with Geant4TrackerWeightedAction
+Geant4UI         INFO  +++ VertexBarrelHandler> Install Geant4 control directory:/ddg4/VertexBarrelHandler/
+Geant4UI         INFO  +++ VertexEndcap> Install Geant4 control directory:/ddg4/VertexEndcap/
+DDSim.Helper.Filter INFO Adding default filter 'edep1kev' to sensitive detector for 'VertexEndcap' 
+DDSim            INFO Setting up SD for ECalBarrel with Geant4ScintillatorCalorimeterAction
+Geant4UI         INFO  +++ VertexEndcapHandler> Install Geant4 control directory:/ddg4/VertexEndcapHandler/
+Geant4UI         INFO  +++ ECalBarrel> Install Geant4 control directory:/ddg4/ECalBarrel/
+DDSim.Helper.Filter INFO Adding default filter 'edep0' to sensitive detector for 'ECalBarrel' 
+DDSim            INFO Setting up SD for ECalEndcap with Geant4ScintillatorCalorimeterAction
+Geant4UI         INFO  +++ ECalBarrelHandler> Install Geant4 control directory:/ddg4/ECalBarrelHandler/
+Geant4UI         INFO  +++ ECalEndcap> Install Geant4 control directory:/ddg4/ECalEndcap/
+DDSim.Helper.Filter INFO Adding default filter 'edep0' to sensitive detector for 'ECalEndcap' 
+DDSim            INFO Setting up SD for HCalBarrel with Geant4ScintillatorCalorimeterAction
+Geant4UI         INFO  +++ ECalEndcapHandler> Install Geant4 control directory:/ddg4/ECalEndcapHandler/
+Geant4UI         INFO  +++ HCalBarrel> Install Geant4 control directory:/ddg4/HCalBarrel/
+DDSim.Helper.Filter INFO Adding default filter 'edep0' to sensitive detector for 'HCalBarrel' 
+DDSim            INFO Setting up SD for HCalEndcap with Geant4ScintillatorCalorimeterAction
+Geant4UI         INFO  +++ HCalBarrelHandler> Install Geant4 control directory:/ddg4/HCalBarrelHandler/
+Geant4UI         INFO  +++ HCalEndcap> Install Geant4 control directory:/ddg4/HCalEndcap/
+DDSim.Helper.Filter INFO Adding default filter 'edep0' to sensitive detector for 'HCalEndcap' 
+DDSim            INFO Setting up SD for HCalRing with Geant4ScintillatorCalorimeterAction
+Geant4UI         INFO  +++ HCalEndcapHandler> Install Geant4 control directory:/ddg4/HCalEndcapHandler/
+Geant4UI         INFO  +++ HCalRing> Install Geant4 control directory:/ddg4/HCalRing/
+DDSim.Helper.Filter INFO Adding default filter 'edep0' to sensitive detector for 'HCalRing' 
+DDSim            INFO Setting up SD for YokeBarrel with Geant4ScintillatorCalorimeterAction
+Geant4UI         INFO  +++ HCalRingHandler> Install Geant4 control directory:/ddg4/HCalRingHandler/
+Geant4UI         INFO  +++ YokeBarrel> Install Geant4 control directory:/ddg4/YokeBarrel/
+DDSim.Helper.Filter INFO Adding default filter 'edep0' to sensitive detector for 'YokeBarrel' 
+DDSim            INFO Setting up SD for YokeEndcap with Geant4ScintillatorCalorimeterAction
+Geant4UI         INFO  +++ YokeBarrelHandler> Install Geant4 control directory:/ddg4/YokeBarrelHandler/
+Geant4UI         INFO  +++ YokeEndcap> Install Geant4 control directory:/ddg4/YokeEndcap/
+DDSim.Helper.Filter INFO Adding default filter 'edep0' to sensitive detector for 'YokeEndcap' 
+Geant4UI         INFO  +++ YokeEndcapHandler> Install Geant4 control directory:/ddg4/YokeEndcapHandler/
+Geant4UI         INFO  +++ PhysicsList> Install Geant4 control directory:/ddg4/PhysicsList/
+PhysicsList            +++ Dump of physics list component(s)
+PhysicsList            +++ Extension name       QGSP_BERT
+PhysicsList            +++ Transportation flag: 0
+PhysicsList            +++ Program decays:      0
+PhysicsList            +++ RangeCut:            0.700000
+Geant4UI         INFO  +++ ExtraParticles> Install Geant4 control directory:/ddg4/ExtraParticles/
+Geant4UI         INFO  +++ GlobalRangeCut> Install Geant4 control directory:/ddg4/GlobalRangeCut/
+ G4ChordFinder: stepperDriverId: 2
+FieldSetup       INFO  Geant4 magnetic field tracking configured.
+FieldSetup       INFO  G4MagIntegratorStepper:ClassicalRK4 G4Mag_EqRhs:Mag_UsualEqRhs
+FieldSetup       INFO  Epsilon:[min:0.000050 mm max:0.001000 mm]
+FieldSetup       INFO  Delta:[chord:0.250000 1-step:0.010000 intersect:0.001000] LargestStep 10000.000000 mm
+
+**************************************************************
+ Geant4 version Name: geant4-11-02 [MT]   (8-December-2023)
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+Geant4UI         INFO  +++ Geant4RunManager> Install Geant4 control directory:/ddg4/Geant4RunManager/
+Geant4RunManager WARN  +++ Configured run manager of type: G4RunManager.
+Geant4Kernel     WARN  +++ Multi-threaded mode requested, but not supported by this compilation of Geant4.
+Geant4Kernel     WARN  +++ Falling back to single threaded mode.
+G4PhysListFactory::GetReferencePhysList <QGSP_BERT>  EMoption= 0
+<<< Geant4 Physics List simulation engine: QGSP_BERT
+
+
+Myphysics        INFO  Registered Geant4 physics constructor G4StepLimiterPhysics to physics list
+ExtraParticles   INFO  pdgfile: /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/dd4hep-1.29-avkr5dbumipi4ajwrofeobcqqujzqbik/examples/DDG4/examples/particle.tbl
+ExtraParticles   INFO  opened pdgfile: /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/dd4hep-1.29-avkr5dbumipi4ajwrofeobcqqujzqbik/examples/DDG4/examples/particle.tbl
+Loaded extra particles using file: /opt/spack/opt/spack/linux-almalinux9-x86_64/gcc-11.3.1/dd4hep-1.29-avkr5dbumipi4ajwrofeobcqqujzqbik/examples/DDG4/examples/particle.tbl
+UserInitialization INFO  +++ Executing Geant4UserActionInitialization::Build. Context:0xcd46600 Kernel:0x5bda380 [-1]
+Geant4Converter  INFO  +++  Successfully converted geometry to Geant4.
+Geant4UI         INFO  +++ ConstructGeo> Install Geant4 control directory:/ddg4/ConstructGeo/
+
+ hInelastic QGSP_BERT  Thresholds: 
+    1) between BERT  and FTF/P over the interval 3 to 6 GeV. 
+    2) between FTF/P and QGS/P over the interval 12 to 25 GeV. 
+  -- quasiElastic: 1 for QGS  and 0 for FTF
+### Adding tracking cuts for neutron  TimeCut(ns)= 10000  KinEnergyCut(MeV)= 0
+GlobalRangeCut   INFO  +++ Set PhysicsList RangeCut to 0.700000 mm
+UI               INFO  ++ Start run with 2147483647 events.
+=======================================================================
+======                 Electromagnetic Physics Parameters      ========
+=======================================================================
+LPM effect enabled                                 1
+Enable creation and use of sampling tables         0
+Apply cuts on all EM processes                     0
+Use combined TransportationWithMsc                 Disabled
+Use general process                                1
+Enable linear polarisation for gamma               0
+Enable photoeffect sampling below K-shell          1
+Enable sampling of quantum entanglement            0
+X-section factor for integral approach             0.8
+Min kinetic energy for tables                      100 eV 
+Max kinetic energy for tables                      100 TeV
+Number of bins per decade of a table               7
+Verbose level                                      1
+Verbose level for worker thread                    0
+Bremsstrahlung energy threshold above which 
+  primary e+- is added to the list of secondary    100 TeV
+Bremsstrahlung energy threshold above which primary
+  muon/hadron is added to the list of secondary    100 TeV
+Lowest triplet kinetic energy                      1 MeV
+Enable sampling of gamma linear polarisation       0
+5D gamma conversion model type                     0
+5D gamma conversion model on isolated ion          0
+Livermore data directory                           epics_2017
+=======================================================================
+======                 Ionisation Parameters                   ========
+=======================================================================
+Step function for e+-                              (0.2, 1 mm)
+Step function for muons/hadrons                    (0.2, 0.1 mm)
+Step function for light ions                       (0.2, 0.1 mm)
+Step function for general ions                     (0.2, 0.1 mm)
+Lowest e+e- kinetic energy                         1 keV
+Lowest muon/hadron kinetic energy                  1 keV
+Use ICRU90 data                                    0
+Fluctuations of dE/dx are enabled                  1
+Type of fluctuation model for leptons and hadrons  Urban
+Use built-in Birks satuaration                     0
+Build CSDA range enabled                           0
+Use cut as a final range enabled                   0
+Enable angular generator interface                 0
+Max kinetic energy for CSDA tables                 1 GeV
+Max kinetic energy for NIEL computation            0 eV 
+Linear loss limit                                  0.01
+Read data from file for e+e- pair production by mu 0
+=======================================================================
+======                 Multiple Scattering Parameters          ========
+=======================================================================
+Type of msc step limit algorithm for e+-           1
+Type of msc step limit algorithm for muons/hadrons 0
+Msc lateral displacement for e+- enabled           1
+Msc lateral displacement for muons and hadrons     0
+Urban msc model lateral displacement alg96         1
+Range factor for msc step limit for e+-            0.04
+Range factor for msc step limit for muons/hadrons  0.2
+Geometry factor for msc step limitation of e+-     2.5
+Safety factor for msc step limit for e+-           0.6
+Skin parameter for msc step limitation of e+-      1
+Lambda limit for msc step limit for e+-            1 mm
+Use Mott correction for e- scattering              0
+Factor used for dynamic computation of angular 
+  limit between single and multiple scattering     1
+Fixed angular limit between single 
+  and multiple scattering                          3.1416 rad
+Upper energy limit for e+- multiple scattering     100 MeV
+Type of electron single scattering model           0
+Type of nuclear form-factor                        1
+Screening factor                                   1
+=======================================================================
+
+phot:  for gamma SubType=12 BuildTable=0
+      LambdaPrime table from 200 keV to 100 TeV in 61 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+ LivermorePhElectric : Emin=    0 eV  Emax=  100 TeV  SauterGavrila Fluo
+
+compt:  for gamma SubType=13 BuildTable=1
+      Lambda table from 100 eV  to 1 MeV, 7 bins/decade, spline: 1
+      LambdaPrime table from 1 MeV to 100 TeV in 56 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+       Klein-Nishina : Emin=    0 eV  Emax=  100 TeV
+
+conv:  for gamma SubType=14 BuildTable=1
+      Lambda table from 1.022 MeV to 100 TeV, 18 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+     BetheHeitlerLPM : Emin=    0 eV  Emax=  100 TeV  ModifiedTsai
+
+Rayl:  for gamma SubType=11 BuildTable=1
+      Lambda table from 100 eV  to 150 keV, 7 bins/decade, spline: 0
+      LambdaPrime table from 150 keV to 100 TeV in 62 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   LivermoreRayleigh : Emin=    0 eV  Emax=  100 TeV  CullenGenerator
+
+msc:  for e-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 MeV Nbins=42 100 eV  - 100 MeV
+          StepLim=UseSafety Rfact=0.04 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=1 Llim=1 mm
+        WentzelVIUni : Emin=  100 MeV Emax=  100 TeV Nbins=42 100 MeV - 100 TeV
+          StepLim=UseSafety Rfact=0.04 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=1 Llim=1 mm
+
+eIoni:  for e-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha : Emin=    0 eV  Emax=  100 TeV
+
+eBrem:  for e-  XStype:4  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB : Emin=    0 eV  Emax=    1 GeV  ModifiedTsai
+            eBremLPM : Emin=    1 GeV Emax=  100 TeV  ModifiedTsai
+
+CoulombScat:  for e- XStype:1 SubType=1 BuildTable=1
+      Lambda table from 100 MeV to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=  100 MeV Emax=  100 TeV
+
+msc:  for e+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 MeV Nbins=42 100 eV  - 100 MeV
+          StepLim=UseSafety Rfact=0.04 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=1 Llim=1 mm
+        WentzelVIUni : Emin=  100 MeV Emax=  100 TeV Nbins=42 100 MeV - 100 TeV
+          StepLim=UseSafety Rfact=0.04 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=1 Llim=1 mm
+
+eIoni:  for e+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha : Emin=    0 eV  Emax=  100 TeV
+
+eBrem:  for e+  XStype:4  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB : Emin=    0 eV  Emax=    1 GeV  ModifiedTsai
+            eBremLPM : Emin=    1 GeV Emax=  100 TeV  ModifiedTsai
+
+annihil:  for e+ XStype:2 SubType=5 BuildTable=0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            eplus2gg : Emin=    0 eV  Emax=  100 TeV
+
+CoulombScat:  for e+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from 100 MeV to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=  100 MeV Emax=  100 TeV
+
+msc:  for proton  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+hIoni:  for proton  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=    2 MeV
+          BetheBloch : Emin=    2 MeV Emax=  100 TeV
+
+hBrems:  for proton  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for proton  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 17x1001; from 7.50618 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for proton XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for GenericIon  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+ionIoni:  for GenericIon  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.02
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            BraggIon : Emin=    0 eV  Emax=    2 MeV
+          BetheBloch : Emin=    2 MeV Emax=  100 TeV
+
+msc:  for alpha  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+ionIoni:  for alpha  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.02
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            BraggIon : Emin=    0 eV  Emax=7.9452 MeV
+          BetheBloch : Emin=7.9452 MeV Emax=  100 TeV
+
+msc:  for anti_proton  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+hIoni:  for anti_proton  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=    2 MeV
+          BetheBloch : Emin=    2 MeV Emax=  100 TeV
+
+hBrems:  for anti_proton  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for anti_proton  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 17x1001; from 7.50618 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for anti_proton XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for kaon+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+hIoni:  for kaon+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=1.05231 MeV
+          BetheBloch : Emin=1.05231 MeV Emax=  100 TeV
+
+hBrems:  for kaon+  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for kaon+  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 18x1001; from 3.94942 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for kaon+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for kaon-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+hIoni:  for kaon-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=1.05231 MeV
+          BetheBloch : Emin=1.05231 MeV Emax=  100 TeV
+
+hBrems:  for kaon-  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for kaon-  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 18x1001; from 3.94942 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for kaon- XStype:1 SubType=1 BuildTable=1
+      Used Lambda table of kaon+
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for mu+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+muIoni:  for mu+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=  200 keV
+        MuBetheBloch : Emin=  200 keV Emax=  100 TeV
+
+muBrems:  for mu+  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+muPairProd:  for mu+  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 21x1001; from 0.85 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for mu+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for mu-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+muIoni:  for mu-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=  200 keV
+        MuBetheBloch : Emin=  200 keV Emax=  100 TeV
+
+muBrems:  for mu-  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+muPairProd:  for mu-  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 21x1001; from 0.85 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for mu- XStype:1 SubType=1 BuildTable=1
+      Used Lambda table of mu+
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for pi+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+hIoni:  for pi+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=297.505 keV
+          BetheBloch : Emin=297.505 keV Emax=  100 TeV
+
+hBrems:  for pi+  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for pi+  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 20x1001; from 1.11656 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for pi+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for pi-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+hIoni:  for pi-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=297.505 keV
+          BetheBloch : Emin=297.505 keV Emax=  100 TeV
+
+hBrems:  for pi-  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for pi-  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 20x1001; from 1.11656 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for pi- XStype:1 SubType=1 BuildTable=1
+      Used Lambda table of pi+
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+====================================================================
+                  HADRONIC PROCESSES SUMMARY (verbose level 1)
+-----------------------------------------------------------------------
+                           Hadronic Processes for neutron
+  Process: hadElastic
+        Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+     Cr_sctns:        G4NeutronElasticXS: 0 eV  ---> 100 TeV
+  Process: neutronInelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:      G4NeutronInelasticXS: 0 eV  ---> 100 TeV
+  Process: nCapture
+        Model:               nRadCapture: 0 eV  ---> 100 TeV
+     Cr_sctns:        G4NeutronCaptureXS: 0 eV  ---> 100 TeV
+  Process: nKiller
+-----------------------------------------------------------------------
+                           Hadronic Processes for B-
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: B-Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 0 eV  ---> 25 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for D-
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: D-Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 0 eV  ---> 25 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for GenericIon
+  Process: ionInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for He3
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+  Process: He3Inelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for alpha
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+  Process: alphaInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_He3
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_He3Inelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_alpha
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_alphaInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_deuteron
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_deuteronInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-------------------------------------------------------------------------
+                           Hadronic Processes for anti_hypertriton
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_lambda
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: anti_lambdaInelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 0 eV  ---> 25 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_neutron
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+        Model:              AntiAElastic: 100 MeV ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_neutronInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_proton
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+        Model:              AntiAElastic: 100 MeV ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_protonInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_triton
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_tritonInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for deuteron
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+  Process: dInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for e+
+  Process: positronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for e-
+  Process: electronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for gamma
+  Process: photonNuclear
+        Model:               GammaNPreco: 0 eV  ---> 200 MeV
+        Model:            BertiniCascade: 199 MeV ---> 6 GeV
+        Model:           TheoFSGenerator: 3 GeV ---> 100 TeV
+     Cr_sctns:            GammaNuclearXS: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for kaon+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: kaon+Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for kaon-
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: kaon-Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: hBertiniCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for lambda
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: lambdaInelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for mu+
+  Process: muonNuclear
+        Model:      G4MuonVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:     KokoulinMuonNuclearXS: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for mu-
+  Process: muonNuclear
+        Model:      G4MuonVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:     KokoulinMuonNuclearXS: 0 eV  ---> 100 TeV
+  Process: muMinusCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for pi+
+  Process: hadElastic
+        Model:           hElasticGlauber: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+  Process: pi+Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for pi-
+  Process: hadElastic
+        Model:           hElasticGlauber: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+  Process: pi-Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+  Process: hBertiniCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for proton
+  Process: hadElastic
+        Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+  Process: protonInelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for sigma-
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: sigma-Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: hBertiniCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for triton
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+  Process: tInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+=======================================================================
+======       Geant4 Native Pre-compound Model Parameters       ========
+=======================================================================
+Type of pre-compound inverse x-section              3
+Pre-compound model active                           1
+Pre-compound excitation low energy                  100 keV
+Pre-compound excitation high energy                 30 MeV
+Angular generator for pre-compound model            1
+Use NeverGoBack option for pre-compound model       0
+Use SoftCutOff option for pre-compound model        0
+Use CEM transitions for pre-compound model          1
+Use GNASH transitions for pre-compound model        0
+Use HETC submodel for pre-compound model            0
+=======================================================================
+======       Nuclear De-excitation Module Parameters           ========
+=======================================================================
+Type of de-excitation inverse x-section             3
+Type of de-excitation factory                       Evaporation+GEM
+Number of de-excitation channels                    68
+Min excitation energy                               10 eV 
+Min energy per nucleon for multifragmentation       200 GeV
+Limit excitation energy for Fermi BreakUp           20 MeV
+Level density (1/MeV)                               0.075
+Use simple level density model                      1
+Use discrete excitation energy of the residual      1
+Time limit for long lived isomeres                  1 ns 
+Isomer production flag                              1
+Internal e- conversion flag                         1
+Store e- internal conversion data                   0
+Correlated gamma emission flag                      0
+Max 2J for sampling of angular correlations         10
+=======================================================================
+EventSeeder1     INFO  Get RunID: runID=0
+LCIOFileReader   INFO  Created file reader. Try to open input output_gen/electrontest_100GeV.slcio
+GenerationInit   INFO  +++ Initializing event 1. Within run:0 event 1.
+LCIOFileReader   INFO  read collection MCParticle from event 0 in run 0 
+LCIO4            INFO  +++ Particle interaction with 1 generator particles and 1 vertices ++++++++++++++++++++++++
+PrimaryHandler   INFO  +++++ G4PrimaryVertex at (+0.00e+00,+0.00e+00,+0.00e+00) [mm] +0.00e+00 [ns]
+EventSeeder1     INFO  At beginEvent: eventID=0, runID=0 initialSeed=634667228, newSeed=3052607047
+ParticleHandler  INFO  +++ Event 0 Begin event action. Access event related information.
+### Birks coefficients used in run time
+   G4_POLYSTYRENE     0.07943 mm/MeV     0.00841958 g/cm^2/MeV  massFactor=  504.48535518201 effCharge= 18.500592148089
+GenerationInit   INFO  +++ Initializing event 2. Within run:0 event 2.
+UI               INFO  ++ End of file reached, ending run...
+GenerationInit   WARN  +++ Finished run 0 after 2 events (2 events in total)
+
+DDSim            INFO Total Time:   47.09 s (User), 1.76 s (System)
+DDSim            INFO StartUp Time: 37.55 s, Event Processing: 9.54 s (9.54 s/Event) 
+Geant4Kernel     INFO  ++ Terminate Geant4 and delete associated actions.
