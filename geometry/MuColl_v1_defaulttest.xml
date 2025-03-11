@@ -256,7 +256,7 @@
     <plugins>
         <plugin name="DD4hepVolumeManager"/>
         <plugin name="InstallSurfaceManager"/>
-        <!-- <plugin name="lcgeo_LinearSortingPolicy">
+        <plugin name="lcgeo_LinearSortingPolicy">
 
           <argument value="/InnerTrackerEndcapSupport_layer8" />
           <argument value="InnerTracker_Barrel_half_length_0" />
@@ -307,7 +307,7 @@
           <argument value="0" />
           <argument value="VertexBarrel_r4+0.5*cm" />
           <argument value="0" />
-        </plugin> -->
+        </plugin>
 
     </plugins>
 
