@@ -412,7 +412,7 @@ InstallSurfaceManager INFO  --------  SurfaceManager contains the following maps
 [ MESSAGE "MyCEDViewer"] 	UsingParticleGun:  false
 [ MESSAGE "MyCEDViewer"] 	WaitForKeyboard:  1
 [ MESSAGE "MyCEDViewer"] -------------------------------------------------
-[ MESSAGE "MyCEDViewer"] Use user defined port 6862
+[ MESSAGE "MyCEDViewer"] Use user defined port 3756
 [ MESSAGE "MyCEDViewer"]  ---- selected color scheme:  10
 [ MESSAGE "MyCEDViewer"]     possible options: 
 [ MESSAGE "MyCEDViewer"]       Red          0
@@ -586,4 +586,44 @@ ObjectExtensions::extension ERROR The object has no extension of type 51E4BB4A77
 [ VERBOSE "MyCEDViewer"] 
 [ MESSAGE "MyCEDViewer"]  ......processing VertexVerticalCable
 ObjectExtensions::extension ERROR The object has no extension of type 1A9816DEEC10EC9C.
-Use port 6862
+ObjectExtensions::extension ERROR The object has no extension of type 51E4BB4A77E716AB.
+[ MESSAGE "MyCEDViewer"] VertexVerticalCable has no extension of type ConicalSupportData/LayeredCalorimeterData. 
+[ MESSAGE "MyCEDViewer"] color: pointer does not exist
+[ MESSAGE "MyCEDViewer"] Surfaces have been used.
+[ MESSAGE "MyCEDViewer"] VertexVerticalCable has successfully been processed.
+[ VERBOSE "MyCEDViewer"] 
+[ VERBOSE "MyCEDViewer"] new instance
+[ MESSAGE "MyCEDViewer"]  ++++++++ collections shown on layers:  +++++++++++++ 
+[ MESSAGE "MyCEDViewer"]     +++++  VertexBarrelCollection	  on layer: 1
+[ MESSAGE "MyCEDViewer"]     +++++  VertexEndcapCollection	  on layer: 1
+[ MESSAGE "MyCEDViewer"]     +++++  InnerTrackerBarrelCollection	  on layer: 1
+[ MESSAGE "MyCEDViewer"]     +++++  InnerTrackerEndcapCollection	  on layer: 1
+[ MESSAGE "MyCEDViewer"]     +++++  OuterTrackerBarrelCollection	  on layer: 1
+[ MESSAGE "MyCEDViewer"]     +++++  OuterTrackerEndcapCollection	  on layer: 1
+[ MESSAGE "MyCEDViewer"]     +++++  ECalBarrelCollection	  on layer: 2
+[ MESSAGE "MyCEDViewer"]     +++++  ECalEndcapCollection	  on layer: 2
+[ MESSAGE "MyCEDViewer"]     +++++  HCalBarrelCollection	  on layer: 2
+[ MESSAGE "MyCEDViewer"]     +++++  HCalEndcapCollection	  on layer: 2
+[ MESSAGE "MyCEDViewer"]     +++++  HCalRingCollection	  on layer: 2
+[ MESSAGE "MyCEDViewer"]     +++++  YokeBarrelCollection	  on layer: 2
+[ MESSAGE "MyCEDViewer"]     +++++  YokeEndcapCollection	  on layer: 2
+[ MESSAGE "MyCEDViewer"]     +++++  MCParticle	  on layer: 0
+[ MESSAGE "MyCEDViewer"] 
+[ MESSAGE "MyCEDViewer"]  [ evt: 0   run: 0 ] 
+[ MESSAGE "MyCEDViewer"]  ++++++++ use shift-[LN] for LN>10  +++++++++++++ 
+[ MESSAGE "MyCEDViewer"] Double click for picking. Press <ENTER> for the next event.
+[ MESSAGE "MyCEDViewer"] --------- END ---------------
+[ MESSAGE "Marlin"]  --------------------------------------------------------- 
+[ MESSAGE "Marlin"]   Events skipped by processors : 
+[ MESSAGE "Marlin"]   Total: 0
+[ MESSAGE "Marlin"]  --------------------------------------------------------- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]  --------------------------------------------------------- 
+[ MESSAGE "Marlin"]       Time used by processors ( in processEvent() ) :      
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] MyCEDViewer                          2.651100e-02 s in            1 events  ==> 2.651100e-02 [ s/evt.] 
+[ MESSAGE "Marlin"] MyInitializeDD4hep                   1.000000e-06 s in            1 events  ==> 1.000000e-06 [ s/evt.] 
+[ MESSAGE "Marlin"]             Total:                   2.651200e-02 s in            1 events  ==> 2.651200e-02 [ s/evt.] 
+[ MESSAGE "Marlin"]  --------------------------------------------------------- 
+Use port 3756
+Done

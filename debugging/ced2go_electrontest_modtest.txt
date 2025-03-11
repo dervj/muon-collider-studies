@@ -298,7 +298,7 @@ InstallSurfaceManager INFO  --------  SurfaceManager contains the following maps
 [ MESSAGE "MyCEDViewer"] 	UsingParticleGun:  false
 [ MESSAGE "MyCEDViewer"] 	WaitForKeyboard:  1
 [ MESSAGE "MyCEDViewer"] -------------------------------------------------
-[ MESSAGE "MyCEDViewer"] Use user defined port 3987
+[ MESSAGE "MyCEDViewer"] Use user defined port 1352
 [ MESSAGE "MyCEDViewer"]  ---- selected color scheme:  10
 [ MESSAGE "MyCEDViewer"]     possible options: 
 [ MESSAGE "MyCEDViewer"]       Red          0
@@ -310,6 +310,6 @@ InstallSurfaceManager INFO  --------  SurfaceManager contains the following maps
 [ MESSAGE "MyCEDViewer"]       Aquamarine   6
 [ MESSAGE "MyCEDViewerWARNING: Failed to read settings from: /home/jdervan/.glced_cfg/settings1
 Set options to default settings
-Try to use user defined port 3987.
-Use port 3987
+Try to use user defined port 1352.
+Use port 1352
 Done
