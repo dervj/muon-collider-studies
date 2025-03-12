@@ -242,6 +242,7 @@
     <!-- <include ref="InnerTracker_o2_v06_01.xml"/> -->
     <!-- <include ref="OuterTracker_o2_v06_01.xml"/> -->
 
+    <include ref="BCH2Shield.xml">
     <include ref="ECalBarrel_o2_v01_02.xml"/>
     <!-- <include ref="ECalBarrel_0p4BCH2.xml"/> -->
     <include ref="ECalEndcap_o2_v01_02.xml"/>
