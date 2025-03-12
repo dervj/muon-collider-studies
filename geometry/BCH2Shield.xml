@@ -3,7 +3,7 @@
 	<define>
 		<constant name="numShieldLayers" value="20"/>
 		<constant name="percentNIL" value="0.7632*cm"/>
-		<constant name="NeutronShield_outer_radius" value="1499mm"/>
+		<constant name="NeutronShield_outer_radius" value="1499*mm"/>
 		<constant name="NeutronShield_inner_radius" value="NeutronShield_outer_radius - (numShieldLayers*percentNIL)"/>
 	</define>
 
@@ -13,7 +13,7 @@
 	</display>
 
 	<detectors>
-		<detector id="DetID_Shield" name="BCH2Shield" type="PassiveLayer" vis="NeutronShieldVis" material="BCH2">
+		<detector id="DetID_Shield" name="BCH2Shield" type="PassiveLayer" vis="NeutronShieldVis" material="BCH2"/>
 
 			<comment>BCH2 Neutron Shield</comment>
 
