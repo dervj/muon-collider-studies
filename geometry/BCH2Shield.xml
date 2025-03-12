@@ -13,7 +13,7 @@
 	</display>
 
 	<detectors>
-		<detector id="DetID_Shield" name="BCH2Shield" type="PassiveLayer" vis="BarrelShieldVis" material="BCH2">
+		<detector id="DetID_Shield" name="BCH2Shield" type="PassiveLayer" vis="BarrelShieldVis" material="BCH2"/>
 
 			<comment>BCH2 Neutron Shield</comment>
 
@@ -32,5 +32,6 @@
 	<plugins>
 		<plugin name="DD4hep_CaloFaceBarrelSurfacePlugin">
 			<argument value="symmetry=ECalBarrel_symmetry"/>
+		</plugin>
 	</plugins>
 </lccdd>
