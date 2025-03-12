@@ -47,6 +47,8 @@
         <constant name="DetID_LumiCal"          value="15"/>
         <constant name="DetID_BeamCal"          value="16"/>
 
+        <constant name="DetID_Shield"           value="17"/>
+
         <constant name="CentralBeamPipe_zmax"   value="308*mm"/>
         <!-- <constant name="CentralBeamPipe_rmax"   value="37*mm"/> -->
         <constant name="CentralBeamPipe_rmax"   value="22.81*mm"/>
@@ -220,7 +222,7 @@
         <vis name="VXDVis"      alpha="1.0" r="0.2"   g="0.2"     b="0.2"   showDaughters="true"  visible="false"/>
         <vis name="ITVis"       alpha="1.0" r="0.54"  g="0.43"    b="0.04"  showDaughters="true"  visible="false"/>
         <vis name="OTVis"       alpha="1.0" r="0.8"   g="0.8"     b="0.4"   showDaughters="true"  visible="false"/>
-        <vis name="BCH2Vis"     alpha="1.0" r="0.5"   g="0.5"     b="0.5"   showDaughters="false" visible="true"/>
+        <vis name="BCH2Vis"     alpha="1.0" r="0.5"   g="0.5"     b="0.5"   showDaughters="true" visible="true"/>
         <vis name="ECALVis"     alpha="1.0" r="0.2"   g="0.6"     b="0"     showDaughters="true"  visible="true"/>
         <vis name="HCALVis"     alpha="1.0" r="0.078" g="0.01176" b="0.588" showDaughters="true"  visible="true"/>
         <vis name="SOLVis"      alpha="1.0" r="0.4"   g="0.4"     b="0.4"   showDaughters="true"  visible="true"/>
@@ -234,16 +236,6 @@
 
     <include ref="${DD4hepINSTALL}/DDDetectors/compact/detector_types.xml"/>
 
-    <!-- <include ref="Beampipe_o1_v01_02.xml"/> -->
-    <!-- <include ref="Nozzle_10deg_v0.xml"/> -->
-    <!-- <include ref="BeamInstrumentation_o1_v01_01.xml"/> -->
-
-    <!-- <include ref="Vertex_o2_v06_01.xml"/> -->
-
-    <!-- <include ref="InnerTracker_o2_v06_01.xml"/> -->
-    <!-- <include ref="OuterTracker_o2_v06_01.xml"/> -->
-
-    <include ref="BCH2Shield.xml"/>
     <include ref="ECalBarrel_o2_v01_02.xml"/>
     <!-- <include ref="ECalBarrel_0p4BCH2.xml"/> -->
     <include ref="ECalEndcap_o2_v01_02.xml"/>
@@ -251,15 +243,8 @@
     <include ref="HCalBarrel_o1_v01_01.xml"/>
     <include ref="HCalEndcap_o1_v01_01.xml"/>
 
-    <!-- <include ref="Solenoid_o1_v01_01.xml"/> -->
-
-    <!-- <include ref="YokeBarrel_o1_v01_01.xml"/> -->
-    <!-- <include ref="YokeEndcap_o1_v01_01.xml"/> -->
-
-    <!-- <include ref="LumiCal_o1_v01_01.xml"/> -->
-
-    <!-- <include ref="BeamCal_o1_v01_01.xml"/> -->
-
+    <include ref="BCH2Shield.xml"/>
+    
     <plugins>
         <plugin name="DD4hepVolumeManager"/>
         <plugin name="InstallSurfaceManager"/>

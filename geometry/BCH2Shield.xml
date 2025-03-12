@@ -1,23 +1,23 @@
 <lccdd>
 	<!-- Global dictionary constants -->
 	<define>
-		<constant name="numShieldLayers" value="20"/>
-		<constant name="percentNIL" value="0.7632*cm"/>
+		<constant name="fractionNIL" value="1.0"/>
+		<constant name="singleNIL" value="763.2*mm"/>
 		<constant name="NeutronShield_outer_radius" value="1499*mm"/>
-		<constant name="NeutronShield_inner_radius" value="NeutronShield_outer_radius - (numShieldLayers*percentNIL)"/>
+		<constant name="NeutronShield_inner_radius" value="NeutronShield_outer_radius - (fractionNIL*singleNIL)"/>
 	</define>
 
 	<!-- Visualization attributes -->
 	<display>
-		<vis name="NeutronShieldVis" alpha="0.5" r="0.5" g="0.5" b="0.5" showDaughters="false" visible="true">
+		<vis name="BarrelShieldVis" alpha="1.0" r="0.5" g="0.5" b="0.5" showDaughters="false" visible="true"/>
 	</display>
 
 	<detectors>
-		<detector id="DetID_Shield" name="BCH2Shield" type="PassiveLayer" vis="NeutronShieldVis" material="BCH2"/>
+		<detector id="DetID_Shield" name="BCH2Shield" type="PassiveLayer" vis="BarrelShieldVis" material="BCH2">
 
 			<comment>BCH2 Neutron Shield</comment>
 
-			<envelope vis="NeutronShieldVis">
+			<envelope vis="BCH2Vis">
 				<shape 	type="PolyhedraRegular" 
 						numsides="ECalBarrel_symmetry"
 						rmin="NeutronShield_inner_radius"
