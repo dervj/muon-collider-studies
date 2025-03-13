@@ -236,7 +236,8 @@
 
     <include ref="${DD4hepINSTALL}/DDDetectors/compact/detector_types.xml"/>
 
-    <include ref="ECalBarrel_o2_v01_02.xml"/>
+    <!-- <include ref="ECalBarrel_o2_v01_02.xml"/> -->
+    <include ref="ECalBarrel_neutronShield.xml"/>
     <!-- <include ref="ECalBarrel_0p4BCH2.xml"/> -->
     <include ref="ECalEndcap_o2_v01_02.xml"/>
 

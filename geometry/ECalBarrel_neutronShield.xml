@@ -1,5 +1,7 @@
 <lccdd>
-
+    <define>
+        <constant name="fractionBCH2" value="1.0"/> 
+    </define>
     <readouts>
         <readout name="ECalBarrelCollection">
             <segmentation type="CartesianGridXY" grid_size_x="ECal_cell_size" grid_size_y="ECal_cell_size" />
@@ -33,10 +35,11 @@
             
             <dimensions numsides="ECalBarrel_symmetry" rmin="ECalBarrel_inner_radius" z="ECalBarrel_half_length*2" />
             <staves vis="ECalStaveVis" />
-            <layer repeat="5" vis="ECalLayerVis">
-                <slice material = "BCH2"    thickness = "5.05*mm" sensitive="yes"   vis="ECalAbsorberVis"/>
+            <layer repeat="1" vis="ECalLayerVis">
+                <slice material = "Vacuum"  thickness = "(1-fractionBCH2)*76.32*cm" sensitive="no" vis="ECalAbsorberVis"/>
+                <slice material = "BCH2"    thickness = "fractionBCH2*76.32*cm" sensitive="yes"   vis="ECalAbsorberVis"/>
             </layer>
-            <layer repeat="35" vis="ECalLayerVis">
+            <layer repeat="40" vis="ECalLayerVis">
                 <slice material = "TungstenDens24" thickness = "1.90*mm" vis="ECalAbsorberVis" radiator="yes"/>
                 <slice material = "G10"            thickness = "0.15*mm" vis="InvisibleNoDaughters"/>
                 <slice material = "GroundOrHVMix"  thickness = "0.10*mm" vis="ECalAbsorberVis"/>
