@@ -1,6 +1,6 @@
 <lccdd>
     <define>
-        <constant name="fractionBCH2" value="1.0"/> 
+        <constant name="fractionBCH2" value="0.5"/> 
     </define>
     <readouts>
         <readout name="ECalBarrelCollection">
@@ -38,7 +38,7 @@
             <staves vis="ECalStaveVis" />
             <layer repeat="1" vis="ECalLayerVis">
                 <slice material = "Vacuum"  thickness = "(1-fractionBCH2)*76.32*cm" sensitive="no" vis="ECalAbsorberVis"/>
-                <slice material = "BCH2"    thickness = "fractionBCH2*76.32*cm" sensitive="yes"   vis="ECalShieldVis"/>
+                <slice material = "BCH2"    thickness = "fractionBCH2*76.32*cm" sensitive="no"   vis="ECalShieldVis"/>
             </layer>
             <layer repeat="40" vis="ECalLayerVis">
                 <slice material = "TungstenDens24" thickness = "1.90*mm" vis="ECalAbsorberVis" radiator="yes"/>
