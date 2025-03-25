@@ -46,7 +46,7 @@ for i, inFile in enumerate(settings["filenames"]):
 
 reader.close()
 
-# –----- Calculating integrated energy in time window ------ 
+# –----- Calculating integrated energy in window of interest ------ 
 integrated_energies         = []
 integrated_energy_errors    = []
 for i in range(len(settings["filenames"])):
@@ -61,7 +61,7 @@ for i in range(len(settings["filenames"])):
     print(f"Integrated energy for case {settings['labels'][i]} (10 ns to 20 ns): {energy_in_window:.2f} ± {error_in_window:.2f}")
 
 
-# ----- Plotting the histograms with error bars -----
+# ------ Plotting the histograms with error bars ------
 fig, ax = plt.subplots(figsize=(8, 6), dpi=100)
 
 num_bins    = 40
@@ -83,7 +83,7 @@ for i in range(len(settings["filenames"])):
         label=f"{settings['labels'][i]} (E_int={integrated_energies[i]:.2f}±{integrated_energy_errors[i]:.2f})"
     )
 
-    ax.errorbar(bin_centers, hist, yerr=hist_err, fmt='o', capsize=1, markersize='5')
+    ax.errorbar(bin_centers, hist, yerr=hist_err, fmt='o', capsize=1, markersize='1')
 
 ax.set_xlabel("Hit time [ns]")
 ax.set_ylabel("Energy-weighted counts")
