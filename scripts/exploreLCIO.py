@@ -5,9 +5,9 @@ import math
 
 settings = {
     "filenames" : [
-        "/scratch/jdervan/mucolltest/muon-collider-studies/output_sim/sim_neutrontest_500MeV_evt30k_ortho_bch0p05.slcio",
-        "/scratch/jdervan/mucolltest/muon-collider-studies/output_sim/sim_neutrontest_500MeV_evt30k_ortho_bch0p10.slcio",
-        "/scratch/jdervan/mucolltest/muon-collider-studies/output_sim/sim_neutrontest_500MeV_evt30k_ortho_bch0p25.slcio"
+        "/scratch/jdervan/mucolltest/muon-collider-studies/output_sim/sim_neutrontest_100MeV_evt30k_ortho_bch0p05.slcio",
+        "/scratch/jdervan/mucolltest/muon-collider-studies/output_sim/sim_neutrontest_100MeV_evt30k_ortho_bch0p10.slcio",
+        "/scratch/jdervan/mucolltest/muon-collider-studies/output_sim/sim_neutrontest_100MeV_evt30k_ortho_bch0p25.slcio"
         # add additional comma-separated filenames here
     ],
     "labels"    : [
@@ -15,7 +15,8 @@ settings = {
         "0.10*NIL BCH2",
         "0.25*NIL BCH2",  
         # add legend labels for each additional input file here
-    ]
+    ],
+    "time_range" : [40, 100]
 }
 
 hitTimesAll = [[] for _ in settings["filenames"]]
@@ -52,20 +53,20 @@ integrated_energy_errors    = []
 for i in range(len(settings["filenames"])):
     energies_window = [
         energy for time, energy in zip(hitTimesAll[i], hitEnergiesAll[i])
-        if 10 <= time <= 20
+        if settings["time_range"][0] <= time <= settings["time_range"][1]
     ]
     energy_in_window    = sum(energies_window)
     error_in_window     = math.sqrt(sum(energy**2 for energy in energies_window))
     integrated_energies.append(energy_in_window)
     integrated_energy_errors.append(error_in_window)
-    print(f"Integrated energy for case {settings['labels'][i]} (10 ns to 20 ns): {energy_in_window:.2f} ± {error_in_window:.2f}")
+    print(f"Integrated energy for case {settings['labels'][i]} ({settings['time_range'][0]} ns to {settings['time_range'][1]} ns): {energy_in_window:.2f} ± {error_in_window:.2f}")
 
 
 # ------ Plotting the histograms with error bars ------
 fig, ax = plt.subplots(figsize=(8, 6), dpi=100)
 
 num_bins    = 40
-time_range  = (10, 20)
+time_range  = (settings['time_range'][0], settings['time_range'][1])
 bins        = np.linspace(time_range[0], time_range[1], num_bins + 1)
 bin_centers = (bins[:-1] + bins[1:]) / 2
 
@@ -87,8 +88,8 @@ for i in range(len(settings["filenames"])):
 
 ax.set_xlabel("Hit time [ns]")
 ax.set_ylabel("Energy-weighted counts")
-ax.set_title("500 MeV neutron simhit time distribution")
+ax.set_title("100 MeV neutron simhit time distribution")
 ax.legend()
 ax.set_xlim(time_range)
 
-fig.savefig("/scratch/jdervan/mucolltest/muon-collider-studies/scripts/500MeV_neutron_BCH2_scan.png")
+fig.savefig("/scratch/jdervan/mucolltest/muon-collider-studies/scripts/100MeV_neutron_BCH2_scan.png")
